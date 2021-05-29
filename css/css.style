@@ -1,1 +1,11 @@
-CSS.style
+/*
+Colors used:
+Primary Color (Blue): #05676e;
+Secondary Color (Green): #489c79;
+*/
+
+<style>
+  body {
+    background-color:#05676e;
+  }
+</style>
