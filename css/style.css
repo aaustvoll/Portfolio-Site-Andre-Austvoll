@@ -1,11 +1,22 @@
 /*
 Colors used:
-Primary Color (Blue): #05676e;
+Primary Color (Pale Turquoise): #C0F8F8;
 Secondary Color (Green): #489c79;
 */
 
 body {
-background-color:#05676e;
+background-color:#C0F8F8;
 
 font-family: 'Lato', sans-serif;
+
+margin-left: 50px;
+
+}
+
+img {
+  width: 100%;
+}
+
+a:hover {
+  background-color: Turquoise;
 }
