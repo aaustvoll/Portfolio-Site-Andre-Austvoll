@@ -1,22 +1,95 @@
+
 /*
-Colors used:
-Primary Color (Pale Turquoise): #C0F8F8;
-Secondary Color (Green): #489c79;
+Colors
+Creamy: #F7EDC6
+Soil: #45402E
+Turquoise: #99B5A6
+Mustard: #D3A700
+Black: #000000
+Grey: #9F9F9F
+White: #FFFFFF
 */
 
+/* typography */
+
+
 body {
-background-color:#C0F8F8;
-
-font-family: 'Lato', sans-serif;
-
+background-color:#FFFFFF;
 margin-left: 50px;
-
+font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+  font-size: 1em;
+  font-weight: 300;
 }
 
-img {
-  width: 100%;
+
+h1 {
+  font-size: 2em;
+  font-weight: 500;
+  text-align: left;
 }
 
+h2 {
+  font-size: 1.75em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: 500;
+}
+span
+{style="background-color:#9F9F9F"
+}
+
+/* links and buttons */
+/* unvisited link */
+a:link {
+  color: #45402E;
+}
+
+/* visited link */
+a:visited {
+  color: #9F9F9F;
+}
+
+/* mouse over link */
 a:hover {
-  background-color: Turquoise;
+  color: #99B5A6;
+}
+
+/* selected link */
+a:active {
+  color: #99B5A6;
+}
+
+/* header and footer */
+header {
+  background-color: #d9d3cf;
+  padding: 12px 0 0;
+  margin: 0 auto;
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  box-shadow: 0 1px 5px 0 #915f1c;
+  z-index: 10;
+}
+
+/* imagery */
+img {
+  max-width: 100%;
+}
+
+.fullcover {
+  width: 100%;
 }
