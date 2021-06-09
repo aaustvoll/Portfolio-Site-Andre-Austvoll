@@ -80,9 +80,10 @@ header {
   padding: 10px 5px;
   margin: 10px;
   border-bottom: 3px solid #4a4a4a;
-  display:inline-block;
   text-align: center;
   position: relative;
+  display: flex;
+justify-content: space-between;
 }
 
 nav > ul > li > a {
@@ -130,4 +131,16 @@ img {
 
 main {
   padding-top: 133px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+.social-icon {
+  font-size: 3em;
 }
