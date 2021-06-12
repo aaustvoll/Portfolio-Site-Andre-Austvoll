@@ -11,6 +11,79 @@ White: #FFFFFF
 */
 
 
+/* header and footer */
+header {
+  background-color: #F7EDC6;
+  padding: 15px 10px;
+  margin: 0px;
+  border-bottom: none;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+
+header, footer
+{
+    font-family: Roboto;
+    margin: 0 auto;
+	  padding: 3em 3em;
+	  text-align: center;
+    background: #F7EDC6;
+}
+
+header h1
+{
+    color: #AAA;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+header span
+{
+    color: #222;
+}
+
+footer span
+{
+  color: #AAA;
+}
+
+nav > ul > li > a {
+
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+  display: inline-block;
+  padding: 0;
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
+
+
+#hero {
+  background-color: #ffe4c4;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+}
+
+#hero h1 {
+  margin: 0;
+  padding: 0.67em 0;
+  text-align: center;
+}
 
 /* typography */
 
@@ -58,22 +131,26 @@ span {
 /* links and buttons */
 .button {
   display: inline-block;
-  background-color: #F7EDC6;
+  background-color: #99B5A6;
   color: white;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #994c30;
-  transition-duration: 0.7s;
-  transition-property: opacity;
+  border-bottom: 2px solid #9F9F9F;
+  transition-duration: 0.8s;
+  transition-property: background-color;
+
 }
 .button:hover {
-  opacity: 0.8;
+  background-color: #D3A700
+
 }
 
 /* unvisited link */
 a:link {
+  transition-duration: 0.5s;
+  transition-property: color;
   color: #45402E;
 }
 
@@ -84,55 +161,15 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #99B5A6;
+  color: #FFFFFF;
 }
 
 /* selected link */
 a:active {
-  color: #99B5A6;
-}
-
-/* header and footer */
-header {
-  background-color: #F7EDC6;
-  padding: 15px 10px;
-  margin: 0px;
-  border-bottom: none;
-  text-align: center;
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-}
-
-nav > ul > li > a {
-
-  padding: 15px;
-  list-style-type: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #4a4a4a;
-  display: inline-block;
-  padding: 0;
-  width: auto;
-  float: right;
-  margin-top: 4px;
+  color: #FFFFFF;
 }
 
 
-#hero {
-  background-color: #ffe4c4;
-  margin: 0;
-  padding: 20px 0;
-  text-align: center;
-}
-
-}
-
-#hero h1 {
-  margin: 0;
-  padding: 0.67em 0;
-  text-align: center;
-}
 
 selector {
   margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
@@ -218,4 +255,46 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+}
+
+#anim {
+  width: 100%;
+max-width: 100%;
+height: auto;
+}
+
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
 }
