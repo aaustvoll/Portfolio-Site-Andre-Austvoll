@@ -16,6 +16,7 @@ header {
   background-color: #F7EDC6;
   padding: 15px 10px;
   margin: 0px;
+  margin-left
   border-bottom: none;
   text-align: center;
   position: relative;
@@ -43,6 +44,7 @@ header h1
     font-size: 40px;
     font-weight: lighter;
     margin-bottom: 5px;
+    margin-left: 50px;
 }
 
 header span
@@ -89,7 +91,7 @@ nav > ul > li > a {
 
 body {
 background-color: #FFFFFF;
-margin-left: 50px;
+
 font-family: 'Roboto', sans-serif;
   line-height: 1.5em;
   font-size: 1em;
@@ -101,11 +103,13 @@ h1 {
   font-size: 2em;
   font-weight: 500;
   text-align: center;
+  padding: 0.5em;
 }
 
 h2 {
   font-size: 1.75em;
   font-weight: 500;
+
 }
 
 h3 {
@@ -122,9 +126,15 @@ h5 {
   font-size: 1em;
   font-weight: 500;
 }
+
+.workmain {
+    margin-left: 50px;
+  }
+
 span {
   span {
   display: block
+padding: 10px;
   }
 }
 
@@ -242,7 +252,7 @@ Medium devices (640px and larger)
 
 
   .col-md-6 {
-  width: 50%;
+  width: 5  0%;
   }
 }
 
