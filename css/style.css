@@ -37,6 +37,9 @@ header, footer
     background: #F7EDC6;
 }
 
+footer {
+  clear: both;
+}
 header h1
 {
     color: #AAA;
@@ -126,7 +129,7 @@ h5 {
 }
 
 .workmain {
-    margin-left: 50px;
+    clear: both;
   }
 
 span {
@@ -251,7 +254,7 @@ Medium devices (640px and larger)
 
 
   .col-md-6 {
-  width: 5  0%;
+  width: 50%;
   }
 }
 
