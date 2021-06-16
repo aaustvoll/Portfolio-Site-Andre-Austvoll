@@ -17,13 +17,16 @@
 </head>
 
 <header>
-    <img src="./img/logo-bk-octopus_200929aa.png" alt="Logo" width="75" height="100">
-    <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html#skills">About</a></li>
-          <li><a href="contact.html">Contact</a></li>     
-		    </ul>
+  <div class="container">
+    <div class="navtoggle" id="myNavtoggle">
+      <img class="logo" src="img/logo.svg" alt="John Doe UX UI logo" >|
+      <nav>
+          <img src="./img/logo-bk-octopus_200929aa.png" alt="Logo" width="75" height="100">
+          <ul>
+                <a href="index.html">Work</a>
+                <a href="about.html#skills">About</a>
+                <a href="contact.html">Contact</a>
+		  </ul>
 		</nav>
 </header>
 <body>
@@ -37,48 +40,49 @@
       <h1>Hi, I am André Austvoll, <span>UX Designer</span></h1>
 	    <p> I am a UX designer specialised in immersive media like Virtual and Augmented Reality. <span>I love to solve usability problems and create data driven and user centred web applications, apps and spatial simulations.</span></p>
     </div>
-  <div class=workmain>
-    <h2>My work</h2>
-    <p>Here you can check out samples of my work.</p>
-    <div class="column col-md-6 col-lg-7" id="law">
-      <picture>
-        <source srcset="./img/learn-a-word/law-mobile 600x600-130521AA.png" media="(max-width:767px)">
-        <img src="./img/learn-a-word/law-desktop 1200x675-130521AA.png" alt="learn-a-word">
-      </picture>
-    </div>
-    <div class="column col-md-6 col-lg-5">
+<div class=workmain>
+<h2>My work</h2>
+	<p>Here you can check out samples of my work.</p>
+
+ <div class="column col-md-6 col-lg-7" id="law">
+    <picture>
+    <source srcset="./img/learn-a-word/law-mobile 600x600-130521AA.png" media="(max-width:767px)">
+    <img src="./img/learn-a-word/law-desktop 1200x675-130521AA.png" alt="learn-a-word">
+    </picture>
+</div>
+</div>
+
+<div class=workmain>
       <h3>Learn-A-Word</h3>
-      <p>
-        Learn-A-Word is an app prototype to help
-        language learners build their desired vocabulary in a
-        chosen language.
-      </p>
-      <p>
-          I did this project as part of the
-          CareerFoundry UX intro course, to show off my skills
-          and design thinking abilities.
-      </p>
-      <a href="https://www.behance.net/gallery/105189369/Learn-A-Word">Read more</a>
-    </div>
+    <p>
+Learn-A-Word is an app prototype to help
+language learners build their desired vocabulary in a
+chosen language.
+    </p>
+    <p>
+I did this project as part of the
+CareerFoundry UX intro course, to show off my skills
+and design thinking abilities.
+    </p>
+    <a href="https://www.behance.net/gallery/105189369/Learn-A-Word">Read more</a>
+
+  <div class="column col-md-6 col-lg-5" id="pt">
+        <picture>
+        <source srcset="./img/the personal trainer/PT-desktop-600x600-130521-aa.png" media="(max-width:767px)">
+        <img src="./img/the personal trainer/PT-desktop-1200x675-130521-aa.png" alt="learn-a-word">
+        </picture>
   </div>
-  <div class=workmain>
-    <div class="column col-md-6 col-lg-7" id="pt">
-          <picture>
-          <source srcset="./img/the personal trainer/PT-desktop-600x600-130521-aa.png" media="(max-width:767px)">
-          <img src="./img/the personal trainer/PT-desktop-1200x675-130521-aa.png" alt="learn-a-word">
-          </picture>
-    </div>
-    <div class="column col-md-6 col-lg-5">
-      <h3>The Personal Trainer</h3>
-      <p>
-        The Personal Trainer is a web application designed to help users book trainers and complete videochats.
-      </p>
-      <p>
-        I was responsible for a complete UX process from problem definition, through ideation and finally a refined hi-fidelity prototype.
-      </p>
-      <a href="https://www.behance.net/gallery/105189369/Learn-A-Word">Read more</a>
-    </div>
-  </div>
+
+<div class=workmain>
+        <h3>The Personal Trainer</h3>
+        <p>
+        The Personal Trainer is a web application designed to help users book trainers and complete videochats.</p>
+        </p>
+        <p>
+    I was responsible for a complete UX process from problem definition, through ideation and finally a refined hi-fidelity prototype.
+        </p>
+        <a href="https://www.behance.net/gallery/105189369/Learn-A-Word">Read more</a>
+
 </main>
 
 <footer>
@@ -1040,6 +1044,7 @@
 			 </div>
 			 <p>Copyright - André Austvoll ©2021</p>
 	 </footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
  <script src="js/scripts.js"></script>
 </body>
 </html>

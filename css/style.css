@@ -130,6 +130,7 @@ h5 {
 
 .workmain {
     clear: both;
+    padding-left: 50px
   }
 
 span {
@@ -254,7 +255,8 @@ Medium devices (640px and larger)
 
 
   .col-md-6 {
-  width: 50%;
+  width: 45%;
+  padding-left: 50px
   }
 }
 
