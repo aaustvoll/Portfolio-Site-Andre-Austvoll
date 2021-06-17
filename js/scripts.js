@@ -73,3 +73,12 @@ console.log(myArray); // Will output: [1,2,3, "Test"]
 for (var i = 1; i <= 3; i++) {
   console.log(i);
 }
+
+function menuToggle() {
+  var x = document.getElementById('myNavtoggle');
+  if (x.className === 'navtoggle') {
+    x.className += ' responsive';
+  } else {
+    x.className = 'navtoggle';
+  }
+}
