@@ -272,6 +272,12 @@ nav > ul {
 .berlin-illustration {
   max-width: 400px;
 }
+
+.column  {
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -308,23 +314,28 @@ Medium devices (640px and larger)
   }
 
   .col-md-3 {
-  width: 45%;
-  padding-left: 50px
+    width: 25%;
   }
 
   .col-md-6 {
-  width: 45%;
-  padding-left: 50px
+    width: 50%;
   }
 }
 
 
-}
+
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+  }
 }
 /* ==============================
 X-large devices (1440px or larger)
