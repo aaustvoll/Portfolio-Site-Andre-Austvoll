@@ -92,7 +92,7 @@ nav > ul > li > a {
 #hero {
   background-color: #ffe4c4;
   margin: 0;
-  padding: 20px 0;
+  padding: 0px 0;
   text-align: center;
 }
 
@@ -287,11 +287,18 @@ Medium devices (640px and larger)
     display: block
   }
 
+  .col-md-3 {
+  width: 45%;
+  padding-left: 50px
+  }
 
   .col-md-6 {
   width: 45%;
   padding-left: 50px
   }
+}
+
+
 }
 
 /* ==============================
