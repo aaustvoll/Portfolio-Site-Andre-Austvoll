@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
 
 /*
 Colors
@@ -37,11 +38,6 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
-
-
-@import 'https://fonts.googleapis.com/css?family=Roboto';
-
 
 header, footer
 {
@@ -250,6 +246,7 @@ nav > ul {
   display: block;
 }
 
+
 .social-icons a {
   text-decoration: none;
 }
@@ -308,7 +305,7 @@ Medium devices (640px and larger)
   right: 0;
   top: 2px;
   font-size: 20px;
-  padding-right: 0;,
+  padding-right: 0;
 }
 
 
