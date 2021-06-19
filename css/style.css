@@ -23,6 +23,10 @@ White: #FFFFFF
   padding: 0 0 10px;
 }
 
+.container {
+  background-color: #ffe4c4;
+  float: right;
+}
 /* header and footer */
 header {
   background-color: #F7EDC6;
