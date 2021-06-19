@@ -24,7 +24,7 @@ White: #FFFFFF
 }
 
 .container {
-  background-color: #ffe4c4;
+  background-color: #F7EDC6;
   float: right;
 }
 /* header and footer */
@@ -57,7 +57,7 @@ footer {
 }
 header h1
 {
-    color: #AAA;
+    color: #F7EDC6;
     font-size: 40px;
     font-weight: lighter;
     margin-bottom: 5px;
@@ -92,7 +92,7 @@ nav > ul > li > a {
 
 
 #hero {
-  background-color: #ffe4c4;
+  background-color: #F7EDC6;
   margin: 0;
   padding: 0px 0 0 0;
   text-align: center;
