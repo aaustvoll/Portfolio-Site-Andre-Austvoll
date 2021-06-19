@@ -133,6 +133,7 @@ h2 {
 h3 {
   font-size: 1.5em;
   font-weight: 400;
+  padding-left: 40px;
 }
 
 h4 {
@@ -339,7 +340,7 @@ Large devices (1024px or larger)
 
   .col-lg-5 {
     width: 41.66%;
-  }
+}
 }
 /* ==============================
 X-large devices (1440px or larger)
