@@ -12,7 +12,6 @@ console.log (text1, text2, escapedText1);
   var numberFloat = 50.25;
 
 console.log (numberInteger);
-
 var boolean1 = true;
 var boolean2 = false;
 var notABoolean = "false"; //This is just the string "false", not false!
