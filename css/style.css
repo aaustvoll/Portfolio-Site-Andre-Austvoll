@@ -5,6 +5,7 @@ Colors
 Creamy: #F7EDC6
 Soil: #45402E
 Turquoise: #99B5A6
+Green: #5C7E6C
 Mustard: #D3A700
 Black: #000000
 Grey: #9F9F9F
@@ -91,7 +92,7 @@ nav > ul > li > a {
 #hero {
   background-color: #F7EDC6;
   margin: 0;
-  padding: 0px 0 0 50;
+  padding: 0px 0px 0px 50px;
   text-align: center;
 }
 
@@ -184,7 +185,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: #99B5A6;
+  color: #5C7E6C;
 }
 
 /* mouse over link */
