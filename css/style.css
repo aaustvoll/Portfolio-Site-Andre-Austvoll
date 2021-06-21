@@ -390,3 +390,7 @@ height: auto;
 .navtoggle.responsive li  {
   display: block;
 }
+
+.interests {
+  list-style: disc;
+}
