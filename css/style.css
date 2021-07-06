@@ -11,7 +11,6 @@ Black: #000000
 Grey: #9F9F9F
 White: #FFFFFF
 */
-
 /* main styling*/
 .navtoggle.responsive nav {
   padding: 24px 0 0;
@@ -22,7 +21,7 @@ White: #FFFFFF
   padding: 10px 0;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
@@ -30,6 +29,7 @@ White: #FFFFFF
   background-color: #F7EDC6;
   float: right;
 }
+
 /* header and footer */
 header {
   background-color: #F7EDC6;
@@ -41,39 +41,35 @@ header {
   justify-content: space-between;
 }
 
-header, footer
-{
-    font-family: Roboto;
-    margin: 0 auto;
-	  padding: 3em 3em;
-	  text-align: center;
-    background: #F7EDC6;
+header, footer {
+  font-family: Roboto;
+  margin: 0 auto;
+  padding: 3em 3em;
+  text-align: center;
+  background: #F7EDC6;
 }
 
 footer {
   clear: both;
 }
-header h1
-{
-    color: #F7EDC6;
-    font-size: 40px;
-    font-weight: lighter;
-    margin-bottom: 5px;
-    margin-left: 50px;
+
+header h1 {
+  color: #F7EDC6;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-bottom: 5px;
+  margin-left: 50px;
 }
 
-header span
-{
-    color: #222;
+header span {
+  color: #222;
 }
 
-footer span
-{
+footer span {
   color: #AAA;
 }
 
-nav > ul > li > a {
-
+nav>ul>li>a {
   padding: 15px;
   list-style-type: none;
   text-transform: uppercase;
@@ -87,7 +83,6 @@ nav > ul > li > a {
   margin: 0;
   margin: 1em 0;
 }
-
 
 #hero {
   background-color: #F7EDC6;
@@ -104,16 +99,13 @@ nav > ul > li > a {
 }
 
 /* typography */
-
 body {
-background-color: #FFFFFF;
-
-font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5em;
   font-size: 1em;
   font-weight: 300;
 }
-
 
 h1 {
   font-size: 2em;
@@ -169,11 +161,10 @@ span {
   border-bottom: 2px solid #9F9F9F;
   transition-duration: 0.8s;
   transition-property: background-color;
-
 }
+
 .button:hover {
   background-color: #D3A700
-
 }
 
 /* unvisited link */
@@ -201,6 +192,7 @@ a:active {
 .logo {
   max-width: 250px;
 }
+
 /* imagery */
 img {
   max-width: 100%
@@ -214,34 +206,33 @@ main {
   padding-top: 0px;
 }
 
-
 ul {
   list-style: none;
 }
 
-nav > ul {
+nav>ul {
   padding-left: 0;
 }
 
-.navtoggle > ul > li:not(:last-child) {
+.navtoggle>ul>li:not(:last-child) {
   display: none;
   padding: 0 10px;
 }
 
-.navtoggle > ul > li:last-child {
+.navtoggle>ul>li:last-child {
   position: absolute;
   top: 10px;
   right: 20px;
 }
 
-.navtoggle.responsive > ul > li:not(:last-child) {
+.navtoggle.responsive>ul>li:not(:last-child) {
   display: block;
 }
-
 
 .social-icons a {
   text-decoration: none;
 }
+
 .social-icon {
   font-size: 3em;
 }
@@ -267,7 +258,7 @@ nav > ul {
   max-width: 400px;
 }
 
-.column  {
+.column {
   padding: 0 50px;
   box-sizing: border-box;
 }
@@ -284,7 +275,8 @@ Medium devices (640px and larger)
   .navtoggle li:last-child {
     display: none;
   }
-  .navtoggle > ul > li:not(:last-child) {
+
+  .navtoggle>ul>li:not(:last-child) {
     display: inline-block;
   }
 
@@ -293,14 +285,12 @@ Medium devices (640px and larger)
   }
 
   .navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
-  padding-right: 0;
-}
-
-
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
+  }
 
   span {
     padding: inherit;
@@ -316,9 +306,6 @@ Medium devices (640px and larger)
   }
 }
 
-
-
-
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -329,18 +316,18 @@ Large devices (1024px or larger)
 
   .col-lg-5 {
     width: 41.66%;
+  }
 }
-}
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-}
+@media only screen and (min-width: 1440px) {}
 
 #anim {
   width: 100%;
-max-width: 100%;
-height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .sun {
@@ -364,22 +351,40 @@ height: auto;
 }
 
 @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
 
