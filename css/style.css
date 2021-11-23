@@ -391,3 +391,7 @@ X-large devices (1440px or larger)
 .interests {
   list-style: disc;
 }
+
+.download {
+padding: 0 50px;
+}
