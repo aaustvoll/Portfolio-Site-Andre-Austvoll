@@ -99,6 +99,11 @@ nav>ul>li>a {
   line-height: 1.1em;
 }
 
+.picture {
+  margin: auto;
+  width: 100%;  
+}
+
 /* typography */
 body {
   background-color: #FFFFFF;
