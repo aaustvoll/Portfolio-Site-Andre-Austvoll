@@ -87,7 +87,7 @@ nav>ul>li>a {
 #hero {
   background-color: #F7EDC6;
   margin: 0;
-  padding: 0px 0px 0px 50px;
+  padding: 0px 0px 0px 0px;
   text-align: center;
   width: 100%;
 }
@@ -99,9 +99,11 @@ nav>ul>li>a {
   line-height: 1.1em;
 }
 
-.picture {
-  margin: auto;
-  width: 100%;  
+#hero picture {
+  margin: 0;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  left: 0;
 }
 
 /* typography */
