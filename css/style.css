@@ -413,6 +413,9 @@ padding: 0 50px;
   border-bottom: 25px solid transparent;
 }
 
+.animationland {
+  left:10%;
+}
 .plane{
 	  position: absolute;
 	  animation: monFrame 5s ease 2s infinite;
