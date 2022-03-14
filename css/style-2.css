@@ -1,0 +1,135 @@
+
+
+/* This relates to animation.html test page */
+
+.body {background-color: rgb(0,50,0);}
+
+.title {
+  border-top: 25px solid transparent;
+  border-left: 50px solid rgb(0,200,0);
+  border-bottom: 25px solid transparent;
+  left: 50px;
+  top:60px;
+}
+
+.animationland {
+  left:10%;
+}
+.plane{
+	  position: absolute;
+	  animation: monFrame 5s ease 2s 2;
+	}
+
+	@keyframes monFrame {
+	  0%   {left:50px; top:60px;
+    transform: rotate(0deg);}
+	  25%  {left:700px; top:60px;
+    transform: rotate(0deg);}
+    26%   {
+      transform: rotate(90deg);}
+	  50%  {left:700px; top:110px;
+    transform: rotate(90deg);}
+	  51%  {transform: rotate(180deg);}
+    75%  { left:50px; top:110px;
+    transform: rotate(180deg);}
+    100% {left:50px; top:60px;
+    transform: rotate(360deg);}
+     }
+
+
+ .copy{
+   padding-left:60px;
+   padding-top: 20%;
+   padding-bottom: 20%;
+ }
+
+
+ .copy1 {
+  
+    border: 1px solid rgba(160, 160, 160, .4);
+    font-family: "Helvetica", Sans-Serif;
+    height:50px;
+    width:200px;
+    background: #A2E4B8;
+      -webkit-filter: drop-shadow(3px 3px 3px rgb(128, 128, 128) );
+    margin:50px;
+    padding: 10% 10% 10% 10%;
+    text-align:center;
+  }
+
+  .copy2 {
+  
+    border: 1px solid rgba(190, 214, 169, 0.4);
+    font-family: "Helvetica", Sans-Serif;
+    height:50px;
+    width:200px;
+    background: #A2E4B8;
+      -webkit-filter: drop-shadow(3px 3px 3px rgb(128, 128, 128) );
+    margin:50px;
+    padding: 10% 10% 10% 10%;
+    text-align:center;
+  }
+
+  .gradient-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ff0000;
+    bottom: 0;
+  }
+
+/* Header */
+body {
+
+  padding-top: 3.25rem;
+  background:linear-gradient(315deg, #fda76c, #fbf9ab, #acfb95, #9fbfff, #b4b2fd, #d19efb, #ffc3ef, #ff9db6);
+  background-size:1000%;
+  /*background: linear-gradient(90deg, rgba(253,101,133,.5) 20%, rgba(13,37,185,.5) 100%); */
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+  }
+
+  @-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+  }
+  @-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+  }
+  @keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+  }
+
+
+  body:before {
+    content: ' ';
+    /*background-image: url(../../images/bg.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.05; 
+ }
+
+ div {
+   color: #acfb95;
+   font-size: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+  left: 0px;
+  padding: 50px;
+  margin: 0 auto;
+  width: 100%;
+ }
+

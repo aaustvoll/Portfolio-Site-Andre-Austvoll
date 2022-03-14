@@ -51,6 +51,11 @@ header, footer {
 
 footer {
   clear: both;
+  position: relative;
+  top:100px;
+  width:100%;
+  margin:0 0;
+  left: 0px;
 }
 
 header h1 {
@@ -404,44 +409,3 @@ X-large devices (1440px or larger)
 padding: 0 50px;
 }
 
-
-.body {background-color: rgb(0,50,0);}
-
-.plane {
-  border-top: 25px solid transparent;
-  border-left: 50px solid rgb(0,200,0);
-  border-bottom: 25px solid transparent;
-  left: 50px;
-  top:60px;
-}
-
-.animationland {
-  left:10%;
-}
-.plane{
-	  position: absolute;
-	  animation: monFrame 5s ease 2s infinite;
-	}
-
-	@keyframes monFrame {
-	  0%   {left:50px; top:60px;
-    transform: rotate(0deg);}
-	  25%  {left:700px; top:60px;
-    transform: rotate(0deg);}
-    26%   {
-      transform: rotate(90deg);}
-	  50%  {left:700px; top:110px;
-    transform: rotate(90deg);}
-	  51%  {transform: rotate(180deg);}
-    75%  { left:50px; top:110px;
-    transform: rotate(180deg);}
-    100% {left:50px; top:60px;
-    transform: rotate(360deg);}
-     }
-
-
- .copy{
-   padding-left:60px;
-   padding-top: 20%;
-   padding-bottom: 20%;
- }
