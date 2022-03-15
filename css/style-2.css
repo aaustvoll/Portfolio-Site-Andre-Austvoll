@@ -70,66 +70,108 @@
     text-align:center;
   }
 
-  .gradient-background {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #ff0000;
-    bottom: 0;
-  }
 
 /* Header */
-body {
-
-  padding-top: 3.25rem;
-  background:linear-gradient(315deg, #fda76c, #fbf9ab, #acfb95, #9fbfff, #b4b2fd, #d19efb, #ffc3ef, #ff9db6);
-  background-size:1000%;
-  /*background: linear-gradient(90deg, rgba(253,101,133,.5) 20%, rgba(13,37,185,.5) 100%); */
-  -webkit-animation: AnimationName 10s ease infinite;
-  -moz-animation: AnimationName 10s ease infinite;
-  animation: AnimationName 10s ease infinite;
-  }
-
-  @-webkit-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-  }
-  @-moz-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-  }
-  @keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-  }
-
-
-  body:before {
-    content: ' ';
-    /*background-image: url(../../images/bg.jpg);*/
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.05; 
- }
-
- div {
-   color: #acfb95;
-   font-size: 50px;
-   font-family: Arial, Helvetica, sans-serif;
-  left: 0px;
-  padding: 50px;
-  margin: 0 auto;
+html {
+  background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.6));
+  background-color: #FFFA02;
+  animation: rgb 6s infinite alternate;
+  height: 100%;
   width: 100%;
- }
+}
+
+@keyframes rgb {
+  10% {
+    background-color: #FF6B02;
+  }
+  20% {
+    background-color: #FF0602;
+  }
+  30% {
+    background-color: #FF0289;
+  }
+  40% {
+    background-color: #BF02FF;
+  }
+  50% {
+    background-color: #022CFF;
+  }
+  60% {
+    background-color: #02BFFF;
+  }
+  70% {
+    background-color: #02FFBB;
+  }
+  80% {
+    background-color: #02FF28;
+  }
+  90% {
+    background-color: #63FF02;
+  }
+  100% {
+    background-color: #C8FF02;
+  }
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Life Savers', cursive;
+  font-size: 30pt;
+  font-weight: bold;
+  margin-top: 25%;
+  text-align: center;
+}
+
+ /* button cta */
+
+ .cta {
+  position: absolute;
+    background-color:#000;
+    font-family: Roboto-regular;
+    font-size: 20;
+    text-align: center;
+       color: rgba(0, 0,0, 0.8);
+    border-radius: 25px;
+    height: auto;
+    width: 25%;
+    margin: 0 auto;
+    padding:15px;
+    left: 0px;
+    right: 0;
+    animation-name: slidein;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  
+  @keyframes slidein { 
+    from {
+      opacity: 1;
+         color: #fff;
+    }
+    50% {
+      opacity: 0.4;
+         color: rgb(85, 221, 255);
+    }  
+    to {
+      opacity: 1;
+         color: #fff;
+    }}
+
+
+svg {
+      left: 6px;
+      width: 20px;
+    }
+
+svg {
+      transform: rotate(0deg);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+  }
 
