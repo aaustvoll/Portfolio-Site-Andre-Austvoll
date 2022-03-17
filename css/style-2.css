@@ -150,7 +150,7 @@ h1 {
     padding:15px;
     left: 0px;
     right: 0;
-top:140px;
+top:25%;
     animation-name: slidein;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
