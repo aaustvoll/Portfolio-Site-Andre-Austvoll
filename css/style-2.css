@@ -196,5 +196,9 @@ position: absolute;
 
     }
 
-  
+  .boxcenter {
+    fill="white";
+    width:50px;
+  }
+
 
