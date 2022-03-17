@@ -2,6 +2,14 @@
 
 /* This relates to animation.html test page */
 
+div {
+  font-family: Arial, Helvetica, sans-serif;
+left:0;
+right: 0;
+  margin: 0 auto;
+  top:50px;
+}
+
 .body {background-color: rgb(0,50,0);}
 
 .title {
@@ -45,14 +53,16 @@
 
 
  .copy1 {
-  
+  position: absolute;
+    left:0;
+    right:0;
+    height:50px;
+    width:200px;   
     border: 1px solid rgba(160, 160, 160, .4);
     font-family: "Helvetica", Sans-Serif;
-    height:50px;
-    width:200px;
     background: #A2E4B8;
       -webkit-filter: drop-shadow(3px 3px 3px rgb(128, 128, 128) );
-    margin:50px;
+    margin: 0 auto;
     padding: 10% 10% 10% 10%;
     text-align:center;
   }
@@ -132,7 +142,7 @@ h1 {
     font-family: Roboto-regular;
     font-size: 20;
     text-align: center;
-       color: rgba(0, 0,0, 0.8);
+    color: rgba(0, 0,0, 0.8);
     border-radius: 25px;
     height: auto;
     width: 25%;
@@ -140,6 +150,7 @@ h1 {
     padding:15px;
     left: 0px;
     right: 0;
+top:140px;
     animation-name: slidein;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
@@ -162,17 +173,26 @@ h1 {
     }}
 
 
-svg {
-      left: 6px;
-      width: 20px;
+.svg {
+position: absolute;
+  left:0;
+  right: 0;
+    margin: 0 auto;
+          width: 20px;
+          top:80px;
+
     }
 
-svg {    cursor: crosshair;
+.svg {    cursor: crosshair;
 
       transform: rotate(0deg);
       margin: 0 auto;
       display: flex;
       flex-direction: column;
+      left:0;
+      right: 0;
+        margin: 0 auto;
+        top:20px;
 
     }
 
