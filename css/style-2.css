@@ -57,7 +57,7 @@ right: 0;
     left:0;
     right:0;
     height:50px;
-    width:200px;   
+
     border: 1px solid rgba(160, 160, 160, .4);
     font-family: "Helvetica", Sans-Serif;
     background: #A2E4B8;
@@ -65,6 +65,7 @@ right: 0;
     margin: 0 auto;
     padding: 10% 10% 10% 10%;
     text-align:center;
+    font-weight: 900;
   }
 
   .copy2 {
@@ -80,6 +81,22 @@ right: 0;
     text-align:center;
   }
 
+  .copy3 {
+    position: absolute;
+    border: 1px solid rgba(190, 214, 169, 0.4);
+    font-family: "Helvetica", Sans-Serif;
+    height:auto;
+    width:400px;
+    background: #A2E4B8;
+      -webkit-filter: drop-shadow(3px 3px 3px rgb(128, 128, 128) );
+    margin:50px;
+    padding: 10% 10% 10% 10%;
+    text-align:center;
+    top: 300px;
+    left:0;
+    right:0;
+    margin: 0 auto;
+  }
 
 /* Header */
 html {    cursor: crosshair;
@@ -93,25 +110,18 @@ html {    cursor: crosshair;
 
 @keyframes rgb {
   10% {
-    background-color: #FF6B02;
+    background-color: #02c4ff;
   }
-  20% {
-    background-color: #FF0602;
-  }
-  30% {
-    background-color: #FF0289;
-  }
-  40% {
-    background-color: #BF02FF;
-  }
+
+  
   50% {
-    background-color: #022CFF;
+    background-color: #4665ff;
   }
   60% {
     background-color: #02BFFF;
   }
   70% {
-    background-color: #02FFBB;
+    background-color: #00c375;
   }
   80% {
     background-color: #02FF28;
@@ -134,23 +144,26 @@ h1 {
 }
 
  /* button cta */
+.card {
+  align-items: center;
 
- .cta {    cursor: crosshair;
-
-  position: absolute;
+}
+ .cta {    
+   position: absolute;
+   cursor: crosshair;
     background-color:#000;
     font-family: Roboto-regular;
-    font-size: 20;
+    font-size: 18px;
     text-align: center;
     color: rgba(0, 0,0, 0.8);
     border-radius: 25px;
     height: auto;
-    width: 25%;
+    width: 35%;
     margin: 0 auto;
     padding:15px;
     left: 0px;
     right: 0;
-top:25%;
+    top:23%;
     animation-name: slidein;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
