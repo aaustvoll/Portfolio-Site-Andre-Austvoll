@@ -91,7 +91,9 @@ nav>ul>li>a {
 
 #hero {
   background-color: #F7EDC6;
-  margin: 0;
+  margin: 0 auto;
+  left:0;
+  right:0;
   padding: 0px 0px 0px 0px;
   text-align: center;
   width: 100%;
@@ -99,7 +101,7 @@ nav>ul>li>a {
 
 #hero h1 {
   margin: 0;
-  padding: 0.67em 0;
+  padding: .67em 0;
   text-align: center;
   line-height: 1.1em;
 }
@@ -109,6 +111,14 @@ nav>ul>li>a {
   width: 100%;
   padding: 0px 0px 0px 0px;
   left: 0;
+}
+
+#hero p {
+
+  margin: 0;
+  padding: 0px 50px 0px 30px;
+  text-align: center;
+  width: 100%;
 }
 
 /* typography */
@@ -125,6 +135,7 @@ h1 {
   font-weight: 500;
   text-align: center;
   padding: 0.5em;
+  
 }
 
 h2 {
@@ -307,7 +318,7 @@ Medium devices (640px and larger)
 
   span {
     padding: inherit;
-    display: block
+    display: block;
   }
 
   .col-md-3 {
@@ -407,5 +418,12 @@ X-large devices (1440px or larger)
 
 .download {
 padding: 0 50px;
+
 }
 
+.links {
+  position: relative;
+  margin:5px;
+  padding: 0 50px 0 50px;
+  left:50px;
+}
