@@ -105,7 +105,7 @@ right: 0;
 html {    cursor: crosshair;
 
   background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.6));
-  background-color: #FFFA02;
+  background-color: #02c4ff;
   animation: rgb 10s infinite alternate;
   height: 100%;
   width: 100%;
