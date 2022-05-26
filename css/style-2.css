@@ -49,13 +49,19 @@ right: 0;
    padding-left:60px;
    padding-top: 20%;
    padding-bottom: 20%;
+ 
  }
 
 
  .copy1 {
-  position: absolute;
- top: 20%;
+  position: relative;
+ top: 10%;
  margin:50px;
+ font-weight: 600;
+ font-size: 2em;
+
+
+
   }
 
   .copy2 {
@@ -75,18 +81,24 @@ right: 0;
     position: absolute;
     border: 1px solid rgba(190, 214, 169, 0.4);
     font-family: "Helvetica", Sans-Serif;
-    height:auto;
-    width:400px;
+    height:50%;
+    width:60%;
     background: #000080;
       -webkit-filter: drop-shadow(3px 3px 3px rgb(128, 128, 128) );
     margin:50px;
-    padding: 10% 10% 10% 10%;
+    padding: 10% 10% 20% 10%;
     text-align:center;
-    top: 300px;
+    top: 50%;
     left:0;
     right:0;
     margin: 0 auto;
     color: #fff;
+    font-weight: 200;
+  }
+
+  .header {
+    font-weight: 700;
+    font-size: large;
   }
 
 /* Header */
@@ -94,7 +106,7 @@ html {    cursor: crosshair;
 
   background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.6));
   background-color: #FFFA02;
-  animation: rgb 6s infinite alternate;
+  animation: rgb 10s infinite alternate;
   height: 100%;
   width: 100%;
 }
@@ -140,8 +152,7 @@ h1 {
   align-items: center;
   left:0;
   right:0;
-  height:50px;
-
+  height:15%;
   border: 1px solid rgba(160, 160, 160, .4);
   font-family: "Helvetica", Sans-Serif;
   background: #A2E4B8;
@@ -152,25 +163,26 @@ h1 {
   font-weight: 900;
 }
  .cta {    
-   position: absolute;
+   position: relative;
    cursor: crosshair;
     background-color:#000;
     font-family: Roboto-regular;
     font-size: 18px;
     text-align: center;
     color: rgba(255, 255, 255, 0.98);
-    border-radius: 25px;
+    border-radius: 35px;
     height: auto;
-    width: 35%;
-    margin: 0 auto;
-    padding:15px;
+    width: 86%;
+    margin:0 auto;
+    padding:18px;
     left: 0px;
     right: 0;
-    top:23%;
+   
     animation-name: slidein;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    font-weight: 600;
   }
   
   
@@ -191,8 +203,9 @@ position: absolute;
   left:0;
   right: 0;
     margin: 0 auto;
-          width: 20px;
-          top:5%;
+    width: 40px;
+     top:10%;
+     stroke-width:2;
 
     }
 
