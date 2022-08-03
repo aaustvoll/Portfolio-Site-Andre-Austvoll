@@ -12,6 +12,11 @@ Grey: #9F9F9F
 White: #FFFFFF
 */
 /* main styling*/
+
+img {
+  width: 100%;
+}
+
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
@@ -129,6 +134,16 @@ body {
   font-size: 1em;
   font-weight: 300;
 }
+
+.portrait { 
+  width: auto;
+
+  clip-path: circle(50% at 120px -120px);
+  
+  }
+  
+
+
 
 h1 {
   font-size: 2em;
