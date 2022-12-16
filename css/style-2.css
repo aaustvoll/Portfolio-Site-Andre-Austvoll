@@ -17,62 +17,8 @@ div {
   background-color: rgb(0, 50, 0);
 }
 
-.title {
-  border-top: 25px solid transparent;
-  border-left: 50px solid rgb(0, 200, 0);
-  border-bottom: 25px solid transparent;
-  left: 50px;
-  top: 60px;
-}
 
-.animationland {
-  left: 10%;
-}
 
-.plane {
-  position: absolute;
-  animation: monFrame 5s ease 2s 2;
-}
-
-@keyframes monFrame {
-  0% {
-    left: 50px;
-    top: 60px;
-    transform: rotate(0deg);
-  }
-
-  25% {
-    left: 700px;
-    top: 60px;
-    transform: rotate(0deg);
-  }
-
-  26% {
-    transform: rotate(90deg);
-  }
-
-  50% {
-    left: 700px;
-    top: 110px;
-    transform: rotate(90deg);
-  }
-
-  51% {
-    transform: rotate(180deg);
-  }
-
-  75% {
-    left: 50px;
-    top: 110px;
-    transform: rotate(180deg);
-  }
-
-  100% {
-    left: 50px;
-    top: 60px;
-    transform: rotate(360deg);
-  }
-}
 
 
 .copy {
@@ -89,9 +35,6 @@ div {
   margin: 50px;
   font-weight: 600;
   font-size: 2em;
-
-
-
 }
 
 .copy2 {
