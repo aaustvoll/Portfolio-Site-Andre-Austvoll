@@ -206,6 +206,7 @@ text-shadow: 2px 2px 10px rgb(211, 211, 211);
     margin: 0 auto;
     z-index: 3;
     background-color:  #FBF0FF;
+    display:none;
 }
 .end {
     position: absolute;
