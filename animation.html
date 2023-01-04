@@ -29,12 +29,13 @@
 </header>
 
 <body>
-    <div class="card">
-        <div class="copy1">Spatial Interaction Design</div>
-    <div class="img-1">
-<img src="img/illustrations/Octonaut.png">
+        <div class="img-1">
 <img src="img/nature/IMG_0722.png">
     </div>
+    
+    <div class="card">
+        <div class="copy1">Spatial Interaction Design</div>
+
 
     <div class="copy3">
         <p class="header">Organic Evolution in Frontend design</p>
@@ -55,6 +56,23 @@
             portfolio in Microdance.</p>
 
 
+            <!-- 
+for each piece of the pie chart create one div and give it
+a data-value attribute that represents the amount (in degrees) that
+represents its total visible portion, and a data-start attribute
+that matches the amount rotation for the starting  (the cumulative value amount of all the previous pieces).
+
+ 
+-->
+
+<div class="entire-pie">
+<div class="pie" data-start="0" data-value="30"></div>
+<div class="pie highlight" data-start="30" data-value="30"></div>
+<div class="pie" data-start="60" data-value="40"></div>
+<div class="pie big" data-start="100" data-value="260"></div>
+<div class="navel"></div>
+</div>
+
         <br>
         <p><a href="index.html" class="cta">See frontend example</a><div class="circle">></div></div></p>
 
@@ -67,32 +85,6 @@
 
     </div>
 
-    <svg class="svg" xmlns="img/crosshair.svg" width="114.403" height="119.395" viewBox="0 0 114.403 119.395">
-        <g transform="translate(-112.5 -102.105)">
-            <g transform="translate(113 102.605)">
-                <path d="M113,107.664V70.542h33.978" transform="translate(-113 -70.542)" fill="none" stroke="#707070" />
-            </g>
-            <g transform="translate(192.425 183.878)">
-                <path d="M146.978,70.542v37.122H113" transform="translate(-113 -70.542)" fill="none" stroke="#707070" />
-            </g>
-            <g transform="translate(192.425 103.063)">
-                <path d="M146.978,107.664V70.542H113" transform="translate(-113 -70.542)" fill="none"
-                    stroke="#707070" />
-            </g>
-            <g transform="translate(113 183.878)">
-                <path d="M113,70.542v37.122h33.978" transform="translate(-113 -70.542)" fill="none" stroke="#707070" />
-            </g>
-            <g class="boxcenter" transform="translate(147 140)" fill="none" stroke="#707070">
-                <rect width="45" height="44" stroke="none" />
-                <rect x="0.5" y="0.5" width="44" height="43" fill="none" />
-            </g>
-            <line y2="18" transform="translate(169.5 121.5)" fill="none" stroke="#707070" />
-            <line y2="18" transform="translate(169.5 184.5)" fill="none" stroke="#707070" />
-            <line x2="22" transform="translate(124.5 162.5)" fill="none" stroke="#707070" />
-            <line x1="22" transform="translate(124.5 162.5)" fill="none" stroke="#707070" />
-            <line x2="17" transform="translate(192.5 162.5)" fill="none" stroke="#707070" />
-        </g>
-    </svg>
     </div>
 
 </body>
