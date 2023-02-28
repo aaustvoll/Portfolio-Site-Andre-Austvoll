@@ -31,7 +31,7 @@ img {
 }
 
 .container {
-  background-color: #F7EDC6;
+  background-color: #FF8733;
   float: right;
 }
 
@@ -85,7 +85,7 @@ header, footer {
   margin: 0 auto;
   padding: 3em 3em;
   text-align: center;
-  background: #F7EDC6;
+  background: #FF8733;
 }
 
 footer {
@@ -129,7 +129,7 @@ nav>ul>li>a {
 }
 
 #hero {
-  background-color: #F7EDC6;
+  background-color: #FF8733;
   margin: 0 auto;
   left:0;
   right:0;
@@ -165,6 +165,7 @@ nav>ul>li>a {
   position: relative;
   left:-100px;
   top: 15%;
+  font-size: 22px;
 }
 
 /* typography */
