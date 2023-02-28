@@ -14,6 +14,7 @@ div {
 
 .body {
   background-color: rgb(237, 237, 237);
+
 }
 
 
@@ -130,10 +131,10 @@ h1 {
   align-items: center;
   left: 0;
   right: 0;
-  height: 15%;
+  height: 20%;
   border: 1px solid rgba(160, 160, 160, .4);
   font-family: "Helvetica", Sans-Serif;
-  background: #A2E4B8;
+  background: #ffffff;
   -webkit-filter: drop-shadow(3px 3px 3px rgb(128, 128, 128));
   margin: 0 auto;
   padding: 10% 10% 10% 10%;
@@ -215,7 +216,7 @@ h1 {
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 300px;
+  width: 100px;
   top: -30px;
   z-index: 0;
   -webkit-filter: drop-shadow(3px 3px 3px rgb(128, 128, 128));
@@ -566,21 +567,24 @@ div {
 }
 
 .copy3 {
-  background: #000080;
-  border: 1px solid rgba(190, 214, 169, 0.4);
-  color: #fff;
-  font-family: "Helvetica", sans-serif;
-  font-weight: 200;
-  height: 50%;
-  left: 0;
-  margin: 0 auto;
-  padding: 10% 10% 20% 10%;
-  position: absolute;
+  height: 60%;
   right: 0;
   text-align: center;
-  top: 50%;
-  -webkit-filter: drop-shadow(3px 3px 3px rgb(128, 128, 128));
+  top: 80%;
   width: 60%;
+  background: #ffffff;
+  border: 1px solid rgba(190, 214, 169, 0.4);
+  color: rgb(0, 0, 0);
+  font-family: "Helvetica", sans-serif;
+  font-weight: 200;
+  
+  left: 0;
+  margin: 0 auto;
+  padding: 10% 10% 0% 10%;
+  position: absolute;
+  
+  -webkit-filter: drop-shadow(3px 3px 3px rgb(128, 128, 128));
+
 }
 
 .header {

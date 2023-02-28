@@ -44,8 +44,42 @@ header {
   position: relative;
   display: flex;
   justify-content: space-between;
+
 }
 
+.headline {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  top: 0px;
+  left: -99%;
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+  display: inline-block;
+  display: flex;
+  padding: 16px 0;
+  width: auto;
+
+  margin-top: 4px;
+  margin: 0;
+  margin: 1em 0;
+
+}
+.section1 {
+  position: relative;
+  height: 150px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 0px 0px 0px;
+  margin: 0px;
+  border-bottom: none;
+
+  display: flex;
+  justify-content: space-between;
+}
 header, footer {
   font-family: Roboto;
   margin: 0 auto;
@@ -109,6 +143,7 @@ nav>ul>li>a {
   padding: .67em 0;
   text-align: center;
   line-height: 1.1em;
+  width: 100%;
 }
 
 #hero picture {
@@ -126,6 +161,12 @@ nav>ul>li>a {
   width: 100%;
 }
 
+.nameplate {
+  position: relative;
+  left:-100px;
+  top: 15%;
+}
+
 /* typography */
 body {
   background-color: #FFFFFF;
@@ -136,13 +177,25 @@ body {
 }
 
 .portrait { 
+  position: relative;
   width: auto;
-
-  clip-path: circle(50% at 120px -120px);
+top: 0%;
+  left: 80%;   
+  transform: scale(.8) translate(-19%);
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center;
+  clip-path: circle(40%); 
   
   }
   
-
+.inner-portrait {
+  position: relative;
+  width:10%; 
+  height:auto;
+  transform: scale(.5) translate(0%);
+  left: 10%;
+}
 
 
 h1 {
