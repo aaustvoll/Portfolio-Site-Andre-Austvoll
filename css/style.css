@@ -70,7 +70,7 @@ header {
 }
 .section1 {
   position: relative;
-  height: 150px;
+  height: 357px;
   width: 100%;
   background-color: #ffffff;
   padding: 0px 0px 0px;
@@ -179,14 +179,14 @@ body {
 
 .portrait { 
   position: relative;
-  width: auto;
+  height: 100%;
 top: 0%;
   left: 80%;   
   transform: scale(.8) translate(-19%);
   display: inline-flex; 
   align-items: center;
   justify-content: center;
-  clip-path: circle(40%); 
+
   
   }
   
