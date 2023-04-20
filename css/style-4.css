@@ -1,0 +1,68 @@
+body,
+html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img {
+    width: 100%;
+
+}
+
+.section {
+    position: absolute;
+    font-size: 26px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://via.placeholder.com/150x150.png");
+
+    /* Set a specific height */
+    min-height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+.odd {
+    background-color: rgb(177, 177, 177);
+}
+
+.even {
+    background-color: rgb(120, 120, 120);
+}
+
+.section1 {
+height: 200px;
+}
+
+
+.section2,.section3, .section4 {
+ 
+height: 200px;	display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: center;
+align-content: center;
+gap: 5%;
+}
+
+
+.placeholder.two, .placeholder.three, .placeholder.four{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 100%;
+
+
+}
+
+
+
