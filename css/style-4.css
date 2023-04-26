@@ -2,7 +2,6 @@ body,
 html {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 img {
@@ -39,30 +38,35 @@ img {
 
 .section1 {
 height: 200px;
+column-count: 4;
 }
 
 
-.section2,.section3, .section4, .section5 {
- 
-height: 200px;	display: flex;
+.section2,.section3, .section4, .section5, .section6,.section7, .section8, .section9, .section10,.section11, .section12 {
+height: 300px;	
+width:100%;
+display: flex;
 flex-direction: row;
-flex-wrap: wrap;
-justify-content: flex-start;
+flex-wrap: nowrap;
+justify-content: space-between;
 align-items: center;
 align-content: center;
-gap: 5%;
+gap: 0%;
+}
+
+.copy {
+    margin: 0 20% 0 20%;
 }
 
 
-.placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five{
+.placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve{
     position: relative;
     top: 0px;
-    left: 0px;
+    right: 0px;
     width: auto;
     height: 100%;
 
 
 }
-
 
 
