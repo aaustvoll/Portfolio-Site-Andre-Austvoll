@@ -9,15 +9,29 @@ img {
 
 }
 
+.navbar {
+    position:fixed;
+    top:0;
+    margin: 0;
+    padding-left: 2vh;
+    height: 5vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 1%, rgba(255,255,255,0.5)30%, rgba(255,255,255,0) 100%);    
+    backdrop-filter: blur(1px);
+    display: flex;
+align-items: center;
+}
+
 .section {
     position: absolute;
     font-size: 26px;
 }
 
 .parallax {
+    position: inherit;
     /* The image used */
     background-image: url("https://via.placeholder.com/150x150.png");
-
+background-image: url('/img/underwater-ux-banner-1200px.png');
     /* Set a specific height */
     min-height: 100%;
 
@@ -37,13 +51,14 @@ img {
 }
 
 .section1 {
-height: 200px;
-column-count: 4;
+height: 30vh;
+column-count: 2;
+column-gap: 5vh;
 }
 
 
 .section2,.section3, .section4, .section5, .section6,.section7, .section8, .section9, .section10,.section11, .section12 {
-height: 300px;	
+height: 50vh;	
 width:100%;
 display: flex;
 flex-direction: row;
