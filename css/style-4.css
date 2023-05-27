@@ -8,19 +8,25 @@ img {
     width: 100%;
 
 }
-
 .navbar {
-    position:fixed;
-    top:0;
-    margin: 0;
-    padding-left: 2vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 5vh;
-    width: 100%;
-    background: linear-gradient(180deg, rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 1%, rgba(255,255,255,0.5)30%, rgba(255,255,255,0) 100%);    
-    backdrop-filter: blur(1px);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 1%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0) 100%);
     display: flex;
-align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
 }
+
+.titlebar {
+    margin-left: 2vh; /* Add left margin to the title element */
+    margin-right: 2vh; /* Add right margin to the navigation element */
+    backdrop-filter: blur(1px);
+}
+
 
 .section {
     position: absolute;
@@ -30,8 +36,9 @@ align-items: center;
 .parallax {
     position: inherit;
     /* The image used */
+    background-image: url('/img/underwater-ux-banner-1200px.png');
     background-image: url("https://via.placeholder.com/150x150.png");
-background-image: url('/img/underwater-ux-banner-1200px.png');
+
     /* Set a specific height */
     min-height: 100%;
 
@@ -50,15 +57,12 @@ background-image: url('/img/underwater-ux-banner-1200px.png');
     background-color: rgb(120, 120, 120);
 }
 
-.section1 {
-height: 30vh;
-column-count: 2;
-column-gap: 5vh;
-}
 
 
-.section2,.section3, .section4, .section5, .section6,.section7, .section8, .section9, .section10,.section11, .section12 {
-height: 50vh;	
+
+
+.section1,.section2,.section3, .section4, .section5, .section6,.section7, .section8, .section9, .section10,.section11, .section12 {
+height: 70vh;	
 width:100%;
 display: flex;
 flex-direction: row;
@@ -70,9 +74,74 @@ gap: 0%;
 }
 
 .copy {
-    margin: 0 20% 0 20%;
+    margin: 0 2% 0 0%;
+}
+.section1 {
+    height: 70vh;	
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    gap: 0%;
+    
 }
 
+.section1b.copy.columns {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  width: 50vh;
+  margin: 0 auto; /* Center the columns horizontally */}
+
+  @media (min-width: 900px) {
+    .section1b.copy.columns {
+        width: 150vh;
+    }
+  }
+
+
+.section2 {
+    height: 40vh;
+    width: 100%;
+    }
+
+    .columns {
+        position: relative;
+        display: flex;
+     
+        justify-content: center;
+        align-items: center;
+        gap: 15vh;
+        width: 100vh;
+        width: 100%; /* Adjust the width to fill the available space */
+    }
+    
+.column1,.column2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center; 
+
+        flex-basis: 50vh; /* Set the initial width for columns */
+        flex-grow: 1; /* Allow columns to grow to fill available space */
+      
+}
+
+span {
+    font-weight: 900;
+    font-size: 5vh;
+}
+
+.quote1 {
+position: relative;
+}
 
 .placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve{
     position: relative;
