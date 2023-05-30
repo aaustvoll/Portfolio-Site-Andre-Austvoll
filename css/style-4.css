@@ -1,13 +1,14 @@
 body,
 html {
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
     width: 100%;
 
 }
+
 .navbar {
     position: fixed;
     top: 0;
@@ -22,22 +23,24 @@ img {
 }
 
 .titlebar {
-    margin-left: 2vh; /* Add left margin to the title element */
-    margin-right: 2vh; /* Add right margin to the navigation element */
+    margin-left: 2vh;
+    /* Add left margin to the title element */
+    margin-right: 2vh;
+    /* Add right margin to the navigation element */
     backdrop-filter: blur(1px);
 }
 
 
 .section {
     position: absolute;
-    font-size: 26px;
+    font-size: 26%;
 }
 
 .parallax {
     position: inherit;
     /* The image used */
     background-image: url('/img/underwater-ux-banner-1200px.png');
-    background-image: url("https://via.placeholder.com/150x150.png");
+    background-image: url("https://via.placeholder.com/1920x1080.png");
 
     /* Set a specific height */
     min-height: 100%;
@@ -47,7 +50,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  } 
+}
 
 .odd {
     background-color: rgb(177, 177, 177);
@@ -58,99 +61,144 @@ img {
 }
 
 
-
-
-
-.section1,.section2,.section3, .section4, .section5, .section6,.section7, .section8, .section9, .section10,.section11, .section12 {
-height: 70vh;	
-width:100%;
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content: space-between;
-align-items: center;
-align-content: center;
-gap: 0%;
-}
-
 .copy {
-    margin: 0 2% 0 0%;
+    margin: 0 2% 0 2%;
 }
-.section1 {
-    height: 70vh;	
-    width:100%;
+
+.copy.copy2 {
+    margin: 0 0% 0 0%;  
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
+    height: 70vh;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
-    gap: 0%;
-    
+
 }
 
-.section1b.copy.columns {
-    display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
-  width: 50vh;
-  margin: 0 auto; /* Center the columns horizontally */}
-
-  @media (min-width: 900px) {
-    .section1b.copy.columns {
-        width: 150vh;
-    }
-  }
-
-
-.section2 {
-    height: 40vh;
+.section1 {
+    position: relative;
+    height: 80vh;
     width: 100%;
-    }
-
-    .columns {
-        position: relative;
-        display: flex;
-     
-        justify-content: center;
-        align-items: center;
-        gap: 15vh;
-        width: 100vh;
-        width: 100%; /* Adjust the width to fill the available space */
-    }
-    
-.column1,.column2 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    align-content: center; 
+    align-content: center;
+    gap: 0%;
+   ;
+}
 
-        flex-basis: 50vh; /* Set the initial width for columns */
-        flex-grow: 1; /* Allow columns to grow to fill available space */
-      
+.columns {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    width: 80%;
+    /* Adjust the width to fill the available space */
+
+
+}
+
+.section1b.copy.columns {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    /* Center the columns horizontally */
+}
+
+.child-title {
+
+  }
+  
+
+.section2 {
+    height: auto;
+    width: 100%;
+}
+
+.section6 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .section1b.copy.columns {
+      flex-direction: column;
+    }
+  }
+
+.column1, .column2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-basis: 10vh;
+    /* Set the initial width for columns */
+    flex-grow: 1;
+    /* Allow columns to grow to fill available space */
+
 }
 
 span {
     font-weight: 900;
-    font-size: 5vh;
+    font-size: 160%;
 }
 
-.quote1 {
-position: relative;
+.copy-quote1 {
+    position: relative;
+    max-width: 40%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
-.placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve{
+.placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve {
     position: relative;
     top: 0px;
     right: 0px;
     width: auto;
     height: 100%;
-
-
 }
 
+.placeholder.two {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    overflow:hidden;
+}
 
+.placeholder.three, .placeholder.four, .placeholder.five {
+    width: auto;
+    height: 80%;
+    right: 2%;
+}
+.placeholder.six {
+    width: auto;
+    height: 80%;
+
+}
