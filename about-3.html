@@ -7,7 +7,7 @@
 
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style-4.css">
+  <link rel="stylesheet" type="text/css" href="css/style-3.css">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
@@ -15,21 +15,40 @@
   <meta name="author" content="André Austvoll">
   <meta name="Portfolio" content="André Austvoll, UX Designer, Oslo">
   <script src="https://kit.fontawesome.com/1cac191fbb.js" crossorigin="anonymous"></script>
+  <script src="js/scripts-3.js"></script>
   <title>Portfolio by André Austvoll</title>
 </head>
 
 
+<header class="container navbar"><div class="headline">About</div>
+      <!-- HERE STARTS THE FROZE NAV BAR -->
+      <div class="navbar">
+        <div class="title titlebar">Title</div>
 
+      </div>
+  
+  <a href="index.html#workmain">
+    <img class="logo" src="./img/logo-bk-octopus_200929aa.png" alt="Logo André Austvoll UX UI mascot" width="75" height="100">
+  </a>
+
+
+  <nav class="navtoggle" id="myNavtoggle">
+    <ul>
+      <li><a href="index.html">Work</a></li>
+      <li><a href="case-study.html">Cases</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a onclick="menuToggle()" href="contact.html">Contact</a></li>
+      <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+    </ul>
+  </nav>
+
+  
+</header>
 
 
 <!-- HERE STARTS THE BODY -->
 
 <body>
-  <!-- HERE STARTS THE FROZE NAV BAR -->
-  <div class="navbar">
-    <div class="title titlebar">Title</div>
-    <div class="nav titlebar">Navigation bar</div>
-  </div>
 
   <!-- HERE STARTS THE PARALLAX -->
   <div class="parallax splash" src="https://via.placeholder.com/150x150.png" alt="placeholder img">

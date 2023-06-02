@@ -63,6 +63,8 @@ img {
 
 .copy {
     margin: 0 2% 0 2%;
+width: 40%;
+font-size: 2.5vh;
 }
 
 .copy.copy2 {
@@ -75,7 +77,7 @@ img {
 
 
 .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -95,9 +97,12 @@ img {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    align-content: center;
-    gap: 0%;
-   ;
+    align-content: center;   
+}
+
+.section2 {
+    width: 100%;
+    height: auto;
 }
 
 .columns {
@@ -122,16 +127,6 @@ img {
     text-align: center;
     margin: 0 auto;
     /* Center the columns horizontally */
-}
-
-.child-title {
-
-  }
-  
-
-.section2 {
-    height: auto;
-    width: 100%;
 }
 
 .section6 {
@@ -184,12 +179,12 @@ margin: 0 auto;
 
 }
 
-span {
+span, p {
     font-weight: 900;
-    font-size: 160%;
+    font-size: 4vh;
 }
 
-.copy-quote1 {
+.copy.quote1 {
     position: relative;
     max-width: 40%;
     display: flex;
@@ -198,6 +193,7 @@ span {
     align-items: center;
     align-content: center;
     text-align: center;
+    font-size: 2.5vh;
 }
 
 .placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve {
@@ -205,16 +201,18 @@ span {
     top: 0px;
     right: 0px;
     width: auto;
-    height: 100%;
+    height: 70vh;
     
 }
 
 .placeholder.two {
     width: 100%;
+    height: auto;
     left: 0;
     right: 0;
     margin: 0 auto;
     overflow:hidden;
+    padding: 0%;
 }
 
 .placeholder.three, .placeholder.four, .placeholder.five {
@@ -230,17 +228,16 @@ span {
 
 .placeholder.twelve {
     position: relative;
+    width: auto;
+    height: 40%;
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: auto;
-    height: 40%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    width: 80%;
     text-align: center;
     margin: 10% auto;
 }
@@ -251,9 +248,60 @@ span {
     }
 
     .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
-        height: 140vh;
+        height: 100vh;
         width: 100%;
         flex-direction: column;
-        padding: 5%;
+        padding: 5% 0 0 0;
+        gap: 5%;
     }
+
+    .section1 {
+        height: 70vh;
+        width: 100%;
+        right: 0px;
+        left: 0;
+        margin: 0 auto;
+        flex-direction: column;
+        padding: 0%;
+    }
+
+    .section2 {
+        height: auto;
+        padding: 0%;
+    }
+
+    .section6 {
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        padding: 0% 0 0 0;
+        gap: 5%;
+    }
+
+    .copy.quote1 {
+        position: relative;
+        max-width: 80%;
+        font-size: 2vh;
+    }
+
+    span, p {
+
+        font-size: 3vh;
+    }
+
+
+   .placeholder.one, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve {
+        position: relative;
+        width: 70vh;
+        height: auto;
+        top: 0px;
+        right: 0px;
+        left: 0;
+        margin: 0 auto 10%;
+    }
+
+.placeholder.six {
+    margin: 10% auto 0%;
+}
+
   }
