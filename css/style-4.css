@@ -1,307 +1,533 @@
 body,
 html {
-    height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
-    width: 100%;
+  width: 100%;
+
+}
+
+.logo {
+  width: 5%;
+  height: auto;
+  padding: 5%;
 
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 5vh;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 1%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0) 100%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
+  width: 100%;
+
 }
 
-.titlebar {
-    margin-left: 2vh;
-    /* Add left margin to the title element */
-    margin-right: 2vh;
-    /* Add right margin to the navigation element */
-    backdrop-filter: blur(1px);
+.title {
+  width: 200%;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+
+}
+
+ul il {
+  display: flex;
+  flex-direction: column;
+}
+
+.navtoggle.responsive ul {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
+
+
+nav>ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navtoggle>ul>li:not(:last-child) {
+  display: none;
+  padding: 0 10px;
+}
+
+.navtoggle>ul>li:last-child {
+  position: absolute;
+  top: 4px;
+  right: 20px;
+}
+
+.navtoggle.responsive>ul>li:not(:last-child) {
+  display: block;
+}
+
+/* unvisited link */
+a:link {
+  transition-duration: 0.5s;
+  transition-property: color;
+  color: #45402E;
+}
+
+/* visited link */
+a:visited {
+  color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #1a1a1a;
+}
+
+/* selected link */
+a:active {
+  color: #1a1a1a;
+}
+
+/* header and footer */
+header {
+  width: 100%;
+  background-color: #00ff11;
+  padding: 0px 0px 0px;
+  margin: 0px;
+  border-bottom: none;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(1px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 7vh;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 1%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  z-index: 1;
+}
+
+.headline {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  top: 0px;
+  left: -99%;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+  display: inline-block;
+  display: flex;
+  padding: 16px 0;
+  width: auto;
+
+  margin-top: 4px;
+  margin: 0;
+  margin: 1em 01em;
+
+}
+
+
 
 
 .section {
-    position: absolute;
-    font-size: 26%;
+  position: relative;
+  font-size: 26%;
 }
 
 .parallax {
-    position: inherit;
-    /* The image used */
-    background-image: url('/img/underwater-ux-banner-1200px.png');
-    background-image: url("https://via.placeholder.com/1920x1080.png");
+  position: inherit;
+  /* The image used */
+  background-image: url('/img/underwater-ux-banner-1200px.png');
+  background-image: url("https://via.placeholder.com/1920x1080.png");
 
-    /* Set a specific height */
-    min-height: 100%;
+  /* Set a specific height */
+  min-height: 100%;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .odd {
-    background-color: rgb(177, 177, 177);
+  background-color: rgb(177, 177, 177);
 }
 
 .even {
-    background-color: rgb(120, 120, 120);
+  background-color: rgb(120, 120, 120);
 }
 
-
+.sectioncopy {
+  width: 80%;
+}
 .copy {
-    margin: 0 2% 0 2%;
-width: 40%;
-font-size: 2.5vh;
+  margin: 0 2% 0 2%;
+  width: 40%;
+  font-size: 2.5vh;
+}
+
+h2 {
+  font-size: 2.5vh;
 }
 
 .copy.copy2 {
-    margin: 0 0% 0 0%;  
+  margin: 0 0% 0 0%;
+}
+
+.copy.about {
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .copy12a {
-    position: relative;
+  position: relative;
 }
 
 
+
 .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
 
 }
 
 .section1 {
-    position: relative;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;   
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
 }
 
 .section2 {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+
+}
+
+.section8 {
+  display: none;
 }
 
 .columns {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5vh;
-    width: 80%;
-    /* Adjust the width to fill the available space */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+  width: 80%;
+  /* Adjust the width to fill the available space */
 
 
 }
 
 .section1b.copy.columns {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    /* Center the columns horizontally */
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  /* Center the columns horizontally */
 }
 
 .section6 {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    text-align: left;
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
 }
 
 .section11 {
-display: flex;
-flex-wrap: nowrap;
-justify-content: space-evenly;
-align-items: center;
-align-content: center;
-width: 100%;
-text-align: left;
-margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
 }
 
+
+
 .section12 {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    text-align: left;
-    margin: 0 auto;
-    }
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+padding: 5% 0 0 0;
+}
 
 
 
 .column1, .column2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    flex-basis: 10vh;
-    /* Set the initial width for columns */
-    flex-grow: 1;
-    /* Allow columns to grow to fill available space */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+width: 50vw;
 
 }
 
 span, p {
-    font-weight: 900;
-    font-size: 4vh;
+  font-weight: 900;
+  font-size: 4vh;
 }
+
+
 
 .copy.quote1 {
-    position: relative;
-    max-width: 40%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    font-size: 2.5vh;
+  position: relative;
+  max-width: 40%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 2.5vh;
 }
 
-.placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve {
-    position: relative;
-    top: 0px;
-    right: 0px;
-    width: auto;
-    height: 70vh;
-    
+.placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve, .placeholder.thirteen, .placeholder.fourteen {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  width: auto;
+  height: 70vh;
+
 }
 
 .placeholder.two {
-    width: 100%;
-    height: auto;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    overflow:hidden;
-    padding: 0%;
+  width: 100%;
+  height: auto;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+
 }
 
 .placeholder.three, .placeholder.four, .placeholder.five {
-    width: auto;
-    height: 80%;
-    right: 2%;
+  width: auto;
+  height: 40vw;
+  right: 2%;
 }
-.placeholder.six {
-    width: auto;
-    height: 80%;
 
+.placeholder.six, .placeholder.seven {
+  width: auto;
+  height: 40vw;
+
+}
+.containertwelve {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  
 }
 
 .placeholder.twelve {
-    position: relative;
-    width: auto;
-    height: 40%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    margin: 10% auto;
+  width: 80%;
+  height: auto;
+  left: 0;
+  right: 0;
+  margin: 0 auto; 
+
 }
 
-@media only screen and (max-width: 900px) {
-    .section1b.copy.columns, .section8a.copy.columns {
-      flex-direction: column;
-    }
-
-    .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
-        height: 100vh;
-        width: 100%;
-        flex-direction: column;
-        padding: 5% 0 0 0;
-        gap: 5%;
-    }
-
-    .section1 {
-        height: 70vh;
-        width: 100%;
-        right: 0px;
-        left: 0;
-        margin: 0 auto;
-        flex-direction: column;
-        padding: 0%;
-    }
-
-    .section2 {
-        height: auto;
-        padding: 0%;
-    }
-
-    .section6 {
-        height: 100vh;
-        width: 100%;
-        flex-direction: column;
-        padding: 0% 0 0 0;
-        gap: 5%;
-    }
-
-    .copy.quote1 {
-        position: relative;
-        max-width: 80%;
-        font-size: 2vh;
-    }
-
-    span, p {
-
-        font-size: 3vh;
-    }
-
-
-   .placeholder.one, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve {
-        position: relative;
-        width: 70vh;
-        height: auto;
-        top: 0px;
-        right: 0px;
-        left: 0;
-        margin: 0 auto 10%;
-    }
-
-.placeholder.six {
-    margin: 10% auto 0%;
+.contact {
+  position: relative;
+top: -50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto; 
 }
+
+
+.placeholder.thirteen, .placeholder.fourteen {
+  border-radius: 10px;
+  width: 10vh;
+  height: auto;
+}
+
+.social {
+  position: relative;
+  width: 20%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding: 0% 10% 10% 10%;
+  gap: 20%;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 0;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
 
   }
+
+  .navtoggle>ul>li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+
+
+}
+
+/* ==============================
+Small devices (900px and smaller)
+================================= */
+
+
+@media only screen and (max-width: 900px) {
+
+  .navtoggle.responsive ul {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .navtoggle.responsive il {
+    transform: translate(0, 50%);
+  }
+
+  .section1b.copy.columns, .section8a.copy.columns {
+    flex-direction: column;
+
+
+
+  }
+
+  .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    padding: 5% 0 0 0;
+    gap: 5%;
+  }
+
+  .section1 {
+    height: 100vh;
+    width: 100%;
+    right: 0px;
+    left: 0;
+    margin: 0 auto;
+
+    flex-direction: column;
+    padding: 0%;
+
+  }
+
+  .section2 {
+    height: auto;
+    padding: 0%;
+  }
+
+  .section6 {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    padding: 0% 0 0 0;
+    gap: 5%;
+  }
+
+  .section7 {
+    height: 200vh;
+    width: 100%;
+    flex-direction: column;
+    padding: 0% 0 0 0;
+    gap: 5%;
+  }
+
+  .copy.quote1 {
+    position: relative;
+    max-width: 80%;
+    font-size: 2vh;
+  }
+
+  span, p {
+
+    font-size: 3vh;
+  }
+
+
+  .placeholder.one, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve {
+    position: relative;
+    width: auto;
+    height: 40vw;
+    top: 0px;
+    right: 0px;
+    left: 0;
+    margin: 0 auto 10%;
+  }
+
+
+  .placeholder.six {
+    margin: 10% auto 0%;
+  }
+
+  
+}
+
+

@@ -16,6 +16,12 @@ img {
 
 }
 
+.navtoggle.responsive ul {
+  display: flex;
+  flex-direction: row;
+}
+
+
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
@@ -31,7 +37,8 @@ img {
 
 
 ul {
-  list-style: none;
+  list-style: none;  display: flex;
+  flex-direction: row;
 }
 
 nav>ul {
@@ -53,9 +60,10 @@ nav>ul {
   display: block;
 }
 
+
 .container {
 
-  float: right;
+  float: left;
   left: 0;
 
 }
@@ -349,7 +357,21 @@ span, p {
     margin: 10% auto;
 }
 
+
+
 @media only screen and (max-width: 900px) {
+
+  .navtoggle.responsive ul {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .navtoggle.responsive il {
+
+    transform: translate(0, 50%);
+  }
+
     .section1b.copy.columns, .section8a.copy.columns {
       flex-direction: column;
     }
@@ -426,6 +448,7 @@ Medium devices (640px and larger)
 
   .navtoggle li:last-child {
     display: none;
+
   }
 
   .navtoggle>ul>li:not(:last-child) {
