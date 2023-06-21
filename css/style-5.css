@@ -410,15 +410,17 @@ span, p {
 }
 
 
-
-.placeholder.six, .placeholder.seven {
+.placeholder.seven {
   width: auto;
   height: 40vw;
   padding: 0 10% 0 0;
 }
 
 .placeholder.six {
-  border-radius: 32px 32px 32px 32px;
+  width: auto;
+  height: 40vw;
+  padding: 0 0% 0 0;
+  border-radius: 26px ;
 }
 
 .placeholder.nine {
@@ -432,7 +434,7 @@ span, p {
   width: auto;
   height: 30vw;
   padding: 0 5% 0 0;
-  
+
 }
 
 .containertwelve {
@@ -511,127 +513,125 @@ Small devices (900px and smaller)
 ================================= */
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) and (orientation: portrait) {
+    .navtoggle.responsive ul {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
 
-  .navtoggle.responsive ul {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    .navtoggle, .navtoggle.responsive {
+      position: absolute;
+      right: 2%;
+      top: 32%;
+    }
+
+
+    .section1b.copy.columns, .section8a.copy.columns {
+      flex-direction: column;
+
+
+
+    }
+
+    .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      padding: 5% 0 0 0;
+      gap: 5%;
+    }
+
+    .section1 {
+      height: 100vh;
+      width: 100%;
+      right: 0px;
+      left: 0;
+      margin: 0 auto;
+
+      flex-direction: column;
+      padding: 0%;
+
+    }
+
+    .section2 {
+      height: auto;
+      padding: 0%;
+    }
+
+    .section6 {
+      height: 100vh;
+      width: 100%;
+      flex-direction: column-reverse;
+      padding: 0% 0 0 0;
+      gap: 5%;
+    }
+
+    .section7 {
+      height: 100vh;
+      width: 100%;
+      flex-direction: column-reverse;
+      padding: 0% 0 0 0;
+      gap: 5%;
+    }
+
+    .copy.quote1 {
+      position: relative;
+      max-width: 80%;
+      font-size: 2vh;
+    }
+
+    .copy {
+      margin: 0 2% 0 2%;
+      width: 60%;
+      font-size: 2.5vh;
+    }
+
+    span, p {
+
+      font-size: 3vh;
+    }
+
+
+    .placeholder.one, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve {
+      position: relative;
+      width: auto;
+      height: 60vw;
+      top: 0px;
+      right: 0px;
+      left: 0;
+      margin: 0 0 auto 0%;
+    }
+
+
+    .placeholder.six {
+      margin: 10% auto 0%;
+    }
+
+
+    .placeholder.seven {
+      margin: 10% auto 0%;
+    }
+
+    .placeholder.nine {
+      border-radius: 26px;
+    }
+
+    .headline {
+      position: relative;
+      width: 80%;
+    }
+
+    .column1, .column2 {
+      width: 80vw;
+    }
+
+    .parallax {
+      min-height: 90vh;
+    }
+
+    .placeholder.six {
+      border-radius: 32px 32px 32px 32px;
+    }
   }
-
-  .navtoggle, .navtoggle.responsive {
-    position: absolute;
-    right: 2%;
-    top: 32%;
-  }
-
-
-  .section1b.copy.columns, .section8a.copy.columns {
-    flex-direction: column;
-
-
-
-  }
-
-  .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    flex-direction: column;
-    padding: 5% 0 0 0;
-    gap: 5%;
-  }
-
-  .section1 {
-    height: 100vh;
-    width: 100%;
-    right: 0px;
-    left: 0;
-    margin: 0 auto;
-
-    flex-direction: column;
-    padding: 0%;
-
-  }
-
-  .section2 {
-    height: auto;
-    padding: 0%;
-  }
-
-  .section6 {
-    height: 100vh;
-    width: 100%;
-    flex-direction: column-reverse;
-    padding: 0% 0 0 0;
-    gap: 5%;
-  }
-
-  .section7 {
-    height: 100vh;
-    width: 100%;
-    flex-direction: column-reverse;
-    padding: 0% 0 0 0;
-    gap: 5%;
-  }
-
-  .copy.quote1 {
-    position: relative;
-    max-width: 80%;
-    font-size: 2vh;
-  }
-
-  .copy  {
-    margin: 0 2% 0 2%;
-    width: 60%;
-    font-size: 2.5vh;
-  }
-
-  span, p {
-
-    font-size: 3vh;
-  }
-
-
-  .placeholder.one, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve {
-    position: relative;
-    width: auto;
-    height: 60vw;
-    top: 0px;
-    right: 0px;
-    left: 0;
-    margin: 0 0 auto 0%;
-  }
-
-
-  .placeholder.six {
-    margin: 10% auto 0%;
-  }
-
-  
-  .placeholder.seven {
-    margin: 10% auto 0%;
-  }
-
-  .placeholder.nine {
-    border-radius: 26px;
-  }
-
-  .headline {
-    position: relative;
-    width: 80%;
-  }
-  .column1, .column2 {
-    width: 80vw;
-  }
-  
-  .parallax {
-    min-height: 90vh;
-  }
-
-.placeholder.six {
-  border-radius: 32px 32px 32px 32px;
-}
-}
-
-
