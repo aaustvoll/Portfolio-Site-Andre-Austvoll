@@ -9,6 +9,10 @@ img {
 
 }
 
+a {
+  color: black;
+}
+
 .logo {
   width: 5%;
   height: auto;
@@ -198,7 +202,7 @@ header {
 
   /* Set a specific height */
   min-height: 100%;
-
+width: auto;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -576,6 +580,8 @@ Small devices (900px and smaller)
       gap: 5%;
     }
 
+
+
     .copy.quote1 {
       position: relative;
       max-width: 80%;
@@ -586,6 +592,13 @@ Small devices (900px and smaller)
       margin: 0 2% 0 2%;
       width: 60%;
       font-size: 2.5vh;
+    }
+
+ .about {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+    
     }
 
     span, p {
@@ -620,7 +633,8 @@ Small devices (900px and smaller)
 
     .headline {
       position: relative;
-      width: 80%;
+      width: 40%;
+      font-size: 14px;
     }
 
     .column1, .column2 {
