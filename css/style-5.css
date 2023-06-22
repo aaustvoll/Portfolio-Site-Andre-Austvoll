@@ -198,7 +198,7 @@ header {
 .parallax {
   position: inherit;
   /* The image used */
-background-image: url(/img/illustrations/mountain-climber-freepik-10606146_9800.svg);
+background-image: url('../img/illustrations/mountain-climber-freepik-10606146_9800.svg');
   /* Set a specific height */
   min-height: 100%;
 width: auto;
