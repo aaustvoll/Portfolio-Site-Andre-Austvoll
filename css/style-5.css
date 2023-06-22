@@ -646,6 +646,15 @@ Small devices (900px and smaller)
 
     .parallax {
       min-height: 90vh;
+        /* Set a specific height */
+  min-height: 100%;
+  width: auto;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     }
 
     .placeholder.six {
