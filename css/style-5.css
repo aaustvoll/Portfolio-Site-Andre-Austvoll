@@ -209,19 +209,20 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
+background-color: #00ff11;
 }
 
 
 .odd {
   background-color: rgb(177, 177, 177);
   background-color: #ff5a00;
+  background-color: transparent;
 }
 
 .even {
   background-color: rgb(120, 120, 120);
   background-color: #fff;
+  background-color: transparent;
 }
 
 .sectioncopy {
