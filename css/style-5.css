@@ -520,7 +520,7 @@ Small devices (900px and smaller)
 ================================= */
 
 
-@media only screen and (max-width: 900px)  {
+@media only screen and (max-width: 900px) and (orientation: portrait) {
     .navtoggle.responsive ul {
       position: relative;
       display: flex;
@@ -645,16 +645,19 @@ Small devices (900px and smaller)
     }
 
     .parallax {
-      min-height: 90vh;
-        /* Set a specific height */
-  min-height: 100%;
-  width: auto;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+      position: inherit;
+      /* The image used */
+    background-image: url('../img/illustrations/mountain-climber-freepik-10606146_9800.svg');
+    
+      /* Set a specific height */
+      min-height: 100%;
+    width: auto;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
     }
 
     .placeholder.six {
