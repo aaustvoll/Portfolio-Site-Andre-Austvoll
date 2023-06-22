@@ -287,12 +287,14 @@ h2 {
 .section2 {
   width: 100%;
   height: auto;
+background-image: url('../img/illustrations/mountain-climber-freepik-10606146_9800.svg');
 
 }
 
 
 .section8 {
-  display: none;
+  background-image: url('../img/illustrations/mountain-climber-freepik-10606146_9800.svg');
+
 }
 
 .columns {
