@@ -208,18 +208,11 @@ width: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-
-  /* override the parallax previous */
-  position: inherit;
-  background-image: url(/img/underwater-ux-banner-1200px.png);
-
-  min-height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: contain;
+
+
 }
+
 
 .odd {
   background-color: rgb(177, 177, 177);
