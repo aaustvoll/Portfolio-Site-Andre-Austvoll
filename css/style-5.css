@@ -650,7 +650,7 @@ Small devices (900px and smaller)
     background-image: url('../img/illustrations/mountain-climber-freepik-10606146_9800.svg');
 
     /* Set a specific height */
-    min-height: 100%;
+    min-height: 300px;
     width: auto;
 
     /* Create the parallax scrolling effect */
@@ -658,6 +658,7 @@ Small devices (900px and smaller)
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    padding-bottom: 20%;
   }
 
   .placeholder.six {
