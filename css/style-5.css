@@ -159,7 +159,7 @@ a:active {
 
 .cta.socialicons {
   background-color: transparent;
-
+border:none;
 }
 
 /* header and footer */
@@ -208,8 +208,8 @@ header {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-background-color: #00ff11;
+  background-size: contain;
+background-color: #ffa33a;
 }
 
 
@@ -231,7 +231,7 @@ background-color: #00ff11;
 
 .copy {
   margin: 0 2% 0 2%;
-  width: 40%;
+  width: 40vh;
   font-size: 2.5vh;
 }
 
@@ -244,7 +244,7 @@ h2 {
 }
 
 .copy.about {
-  width: 50vh;
+  width:40vh;
   display: flex;
   flex-direction: column;
 
@@ -257,6 +257,7 @@ h2 {
 .copy12b {
   position: relative;
   font-size: 26px;
+  font-weight: 900;
 }
 
 
@@ -357,6 +358,7 @@ h2 {
   right: 0;
   margin: 0 auto;
   padding: 5% 0 0 0;
+  background-color: #ffa33a;
 }
 
 
@@ -396,7 +398,7 @@ span, p {
   top: 0px;
   right: 0px;
   width: auto;
-  height: 70vh;
+  height: 0vh;
 
 }
 
@@ -445,6 +447,12 @@ span, p {
 
 }
 
+.placeholder.eleven {
+  width: auto;
+  height: 30vw;
+  margin: 5% auto 0%;
+}
+
 .containertwelve {
   position: relative;
   text-align: center;
@@ -458,7 +466,7 @@ span, p {
   left: 0;
   right: 0;
   margin: 0 auto;
-
+  filter: drop-shadow(-10px 70px 30px #0000003d);
 }
 
 .contact {
@@ -584,7 +592,10 @@ Small devices (900px and smaller)
     gap: 5%;
   }
 
-
+  .section10 {
+    margin: 10% 0 0 0;
+    padding: 20% 0 0 0;
+  }
 
   .copy.quote1 {
     position: relative;
@@ -594,7 +605,7 @@ Small devices (900px and smaller)
 
   .copy {
     margin: 0 2% 0 2%;
-    width: 60%;
+    width: 70%;
     font-size: 2.5vh;
   }
 
@@ -614,7 +625,7 @@ Small devices (900px and smaller)
   .placeholder.one, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve {
     position: relative;
     width: auto;
-    height: 60vw;
+    height: 70vw;
     top: 0px;
     right: 0px;
     left: 0;
@@ -633,6 +644,12 @@ Small devices (900px and smaller)
 
   .placeholder.nine {
     border-radius: 26px;
+  }
+
+  .placeholder.eleven {
+    width: auto;
+    height: 60vw;
+    margin: 5% auto 0%;
   }
 
   .headline {
