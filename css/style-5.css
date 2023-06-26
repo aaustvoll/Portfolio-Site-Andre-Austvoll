@@ -305,6 +305,10 @@ h2 {
   display: none;
 }
 
+.section11 {
+padding: 0 0 0 5%;
+}
+
 .columns {
   position: relative;
   display: flex;
@@ -483,6 +487,7 @@ height: 58vh;
   left: 0;
   right: 0;
   margin: 0 auto;
+  font-size: 26px;
 }
 
 
@@ -560,7 +565,7 @@ Small devices (900px and smaller)
 
   .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
     position: relative;
-    height: 100vh;
+    height: 96vh;
     width: 100%;
     flex-direction: column;
     padding: 5% 0 0 0;
@@ -585,7 +590,7 @@ Small devices (900px and smaller)
   }
 
   .section6 {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     flex-direction: column-reverse;
     padding: 0% 0 0 0;
@@ -603,6 +608,12 @@ Small devices (900px and smaller)
 .section9 {
   height: 120vh;
   width: 100%; 
+}
+
+.section10, .section11 {
+  height: 80vh;
+  width: 100%; 
+  flex-direction: column-reverse;
 }
 
   .copy.quote1 {
