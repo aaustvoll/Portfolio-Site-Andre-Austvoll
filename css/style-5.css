@@ -138,7 +138,6 @@ a:active {
 }
 
 .cta {
-  background-color: #ff5a00;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,7 +153,7 @@ a:active {
   white-space: break-spaces;
   text-align: left;
   border-radius: 25px;
-  border: 1px solid white;
+
 }
 
 .cta.socialicons {
@@ -216,13 +215,16 @@ background-color: #ffa33a;
 .odd {
   background-color: rgb(177, 177, 177);
   background-color: #ff5a00;
+  background-color: #ffa33a;
   background-color: transparent;
+
 }
 
 .even {
   background-color: rgb(120, 120, 120);
-  background-color: #fff;
+  background-color: #c8c8c8;
   background-color: transparent;
+
 }
 
 .sectioncopy {
@@ -250,6 +252,8 @@ h2 {
 
 }
 
+
+
 .copy12a {
   position: relative;
 }
@@ -268,7 +272,7 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   align-content: center;
 
@@ -292,6 +296,10 @@ h2 {
 
 }
 
+.section4, .section7 {
+  background-color: #ffa33a;
+
+}
 
 .section8 {
   display: none;
@@ -396,9 +404,9 @@ span, p {
 .placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve, .placeholder.thirteen, .placeholder.fourteen {
   position: relative;
   top: 0px;
-  right: 0px;
-  width: auto;
-  height: 0vh;
+
+
+
 
 }
 
@@ -415,8 +423,9 @@ span, p {
 .placeholder.three, .placeholder.four, .placeholder.five {
   width: auto;
   height: 40vw;
-  right: 2%;
+  right: 0%;
   border-radius: 12px;
+  box-shadow: 0px 43px 37px -37px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -430,7 +439,16 @@ span, p {
   width: auto;
   height: 40vw;
   padding: 0 0% 0 0;
-  border-radius: 26px;
+  border-radius: 12px;
+  box-shadow: 0px 43px 37px -17px rgba(0, 0, 0, 0.25);
+}
+
+.placeholder.placeholder.seven {
+  width: auto;
+height: 58vh;
+  padding: 0 0% 0 0;
+  -webkit-filter: drop-shadow(0px 43px 37px  rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 43px 37px 37px rgba(0, 0, 0, 0.25));
 }
 
 .placeholder.nine {
