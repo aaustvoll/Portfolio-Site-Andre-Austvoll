@@ -340,16 +340,6 @@ h2 {
   margin: 0 auto;
 }
 
-.section11 {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
-  width: 100%;
-  text-align: left;
-  margin: 0 auto;
-}
 
 
 
@@ -468,7 +458,7 @@ height: 58vh;
 .placeholder.eleven {
   width: auto;
   height: 30vw;
-  margin: 5% auto 0%;
+  margin: 0% auto ;
 }
 
 .containertwelve {
@@ -610,10 +600,10 @@ Small devices (900px and smaller)
     gap: 5%;
   }
 
-  .section10 {
-    margin: 10% 0 0 0;
-    padding: 20% 0 0 0;
-  }
+.section9 {
+  height: 120vh;
+  width: 100%; 
+}
 
   .copy.quote1 {
     position: relative;
@@ -647,21 +637,22 @@ Small devices (900px and smaller)
     top: 0px;
     right: 0px;
     left: 0;
-    margin: 0 0 auto 0%;
+    margin: 0 auto;
   }
+
+
 
 
   .placeholder.six {
-    margin: 10% auto 0%;
+    border-radius: 12px 12px 12px 12px;
   }
-
 
   .placeholder.seven {
     margin: 10% auto 0%;
   }
 
   .placeholder.nine {
-    border-radius: 26px;
+    border-radius: 12px;
   }
 
   .placeholder.eleven {
@@ -697,7 +688,5 @@ Small devices (900px and smaller)
     padding-bottom: 20%;
   }
 
-  .placeholder.six {
-    border-radius: 32px 32px 32px 32px;
-  }
+
 }
