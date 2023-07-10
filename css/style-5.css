@@ -229,7 +229,7 @@ header {
 .parallaxbg {
   position:absolute;
   /* The image used */
-  background: linear-gradient(10deg, rgba(214, 250, 237, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(104,255,201,1) 100%);
+  background: linear-gradient(10deg, rgba(250, 237, 214, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(214, 247, 250, 0.796) 100%);
 
   /* Set a specific height */
   min-height: 100vh;
@@ -243,31 +243,33 @@ animation: colorchange ease-in-out 8s infinite;
 
 @keyframes colorchange {
   0% {
-		background-position: 0% 50%;
-    background: linear-gradient(10deg, rgba(214, 250, 237, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(104,255,201,1) 100%);
+    background: linear-gradient(10deg, rgba(250, 237, 214, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(214, 247, 250, 0.796) 100%);
+
 	}
 	50% {
-		background-position: 50% 50%;
-    background: linear-gradient(10deg, rgba(250, 214, 214, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(104,255,201,1) 100%);
+		background-position: 0% 50%;
+    background: linear-gradient(10deg, rgba(250, 237, 214, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(214, 247, 250, 0.796) 100%);
+
 	}
 	100% {
-		background-position: 0% 50%;
-    background: linear-gradient(10deg, rgba(214, 250, 237, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(104,255,201,1) 100%);
+    background: linear-gradient(10deg, rgba(250, 237, 214, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(214, 247, 250, 0.796) 100%);
+
 	}
   }
 
   @-webkit-keyframes colorchange {  
     0% {
-      background-position: 0% 50%;
-      background: linear-gradient(10deg, rgba(214, 250, 237, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(104,255,201,1) 100%);
+      background: linear-gradient(10deg, rgba(250, 237, 214, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(214, 247, 250, 0.796) 100%);
+
     }
     50% {
-      background-position: 100% 50%;
-      background: linear-gradient(10deg, rgba(250, 214, 214, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(104,255,201,1) 100%);
+      background-position: 0% 50%;
+      background: linear-gradient(10deg, rgba(250, 237, 214, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(214, 247, 250, 0.796) 100%);
+
     }
     100% {
-      background-position: 0% 50%;
-      background: linear-gradient(10deg, rgba(214, 250, 237, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(104,255,201,1) 100%);
+      background: linear-gradient(10deg, rgba(250, 237, 214, 0.796) 0%,  rgba(146,226,255,0) 70%, rgba(214, 247, 250, 0.796) 100%);
+
     }
   }
 
@@ -746,7 +748,7 @@ Small devices (900px and smaller)
     .parallax {
       position: inherit;
       /* The image used */
-      background-image: url('../img/illustrations/mountain-climber-freepik-10606146_9800.svg');
+      background-image: url('../img/illustrations/Cover-ill-ux-10-july-23-alpha.png');
 
       /* Set a specific height */
       min-height: 300px;
