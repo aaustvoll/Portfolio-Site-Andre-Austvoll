@@ -671,17 +671,24 @@ Small devices (900px and smaller)
     top: 32%;
   }
 
+  .headertitle {
+    position: absolute;
+    top: 30vh;
+    left: 3%;
+    right: 0;
+    margin: 0 auto;
+    font-size: 1.6vh;
+    font-weight: 400;
+  
+  }
 
   .section1b.copy.columns, .section8a.copy.columns {
     flex-direction: column;
-
-
-
   }
 
   .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
     position: relative;
-    height: 96vh;
+    height: 100vh;
     width: 100%;
     flex-direction: column;
     padding: 5% 0 0 0;
@@ -706,7 +713,7 @@ Small devices (900px and smaller)
   }
 
   .section6 {
-    height: 70vh;
+    height: 100vh;
     width: 100%;
     flex-direction: column-reverse;
     padding: 0% 0 0 0;
@@ -722,7 +729,7 @@ Small devices (900px and smaller)
   }
 
   .section9 {
-    height: 120vh;
+    height: 140vh;
     width: 100%;
   }
 
@@ -732,10 +739,15 @@ Small devices (900px and smaller)
     flex-direction: column-reverse;
   }
 
+  .section12 {
+    height: 110vh;
+  }
+
   .copy.quote1 {
     position: relative;
     max-width: 80%;
     font-size: 2vh;
+
   }
 
   .copy {
@@ -820,7 +832,7 @@ Small devices (900px and smaller)
 
 
     /* Set a specific height */
-    min-height: 55vh;
+    min-height: 65vh;
 
   }
 
