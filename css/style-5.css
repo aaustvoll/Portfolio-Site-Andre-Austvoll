@@ -800,6 +800,10 @@ Small devices (900px and smaller)
     margin: 5% auto 0%;
   }
 
+  .placeholder.thirteen, .placeholder.fourteen {
+    border-radius: 20px;
+  }
+
   .headline {
     position: relative;
     width: 40%;
