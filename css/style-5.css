@@ -165,7 +165,7 @@ a:active {
   overflow: hidden;
   white-space: break-spaces;
   text-align: left;
-  border-radius: 25px;
+  border-radius: 50px;
 
 }
 
@@ -214,15 +214,14 @@ header {
   /* Set a specific height */
   min-height: 100%;
   width: auto;
-  -webkit-filter: drop-shadow(5px 5px 15px #0000007b);
-  filter: drop-shadow(5px 5px 15px #0000002e);
+
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  scale: 1.2;
+  scale: 1.1;
 
 }
 
@@ -233,7 +232,7 @@ header {
   background: rgb(146, 226, 255);
   background: rgb(146, 226, 255);
   background: rgb(146, 226, 255);
-  background: linear-gradient(0deg, rgba(146, 226, 255, 1) 17%, #ff5a00 59%,  rgb(255, 240, 79) 65%);
+  background: linear-gradient(0deg, rgb(146, 179, 255) 17%, #329fff 59%,  rgb(124, 124, 124) 65%);
   background-size: 400% 400%;
 
 
@@ -374,7 +373,7 @@ h2 {
 
 
 .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -387,7 +386,7 @@ h2 {
 
 .section1 {
   position: relative;
-  height: 80vh;
+  height: 60vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -403,7 +402,10 @@ h2 {
 
 }
 
-.section4, .section7 {
+
+
+
+.section, .section7, .section3 {
   background-color: #ffa33a;
 
 }
@@ -526,8 +528,8 @@ span, p {
   height: 40vw;
   right: 0%;
   border-radius: 12px;
-  -webkit-filter: drop-shadow(5px 5px 5px #666666);
-  filter: drop-shadow(5px 5px 5px #666666);
+  -webkit-filter: drop-shadow(5px 5px 15px #66666658);
+  filter: drop-shadow(5px 5px 15px #66666658);
 }
 
 
@@ -539,9 +541,9 @@ span, p {
 
 .placeholder.six {
   width: auto;
-  height: 40vw;
+  height: 37vw;
   padding: 0 0% 0 0;
-  border-radius: 12px;
+  border-radius: 5px;
   box-shadow: 0px 43px 37px -17px rgba(0, 0, 0, 0.25);
 }
 
@@ -557,7 +559,7 @@ span, p {
   width: auto;
   height: 40vw;
   padding: 0 0% 0 0;
-  border-radius: 0 26px 26px 0;
+  border-radius: 0 5px 5px 0;
   -webkit-filter: drop-shadow(3px 63px 47px rgba(0, 0, 0, 0.265));
   filter: drop-shadow(0px 43px 37px 37px rgba(0, 0, 0, 0.25));
 }
@@ -566,7 +568,7 @@ span, p {
   width: auto;
   height: 40vw;
   padding: 0 0% 0 0;
-  border-radius: 26px 26px 26px 26px;
+  border-radius: 5px;
   -webkit-filter: drop-shadow(3px 63px 47px rgba(0, 0, 0, 0.265));
   filter: drop-shadow(0px 43px 37px 37px rgba(0, 0, 0, 0.25));
 
@@ -597,7 +599,7 @@ span, p {
 .contact {
   position: relative;
   top: 8%;
-  left: -2%;
+  left: 0%;
   right: 0;
   margin: 0 auto;
   font-size: 26px;
@@ -769,7 +771,7 @@ Small devices (900px and smaller)
 
 
   .placeholder.six {
-    border-radius: 12px 12px 12px 12px;
+    border-radius: 5px;
   }
 
   .placeholder.seven {
