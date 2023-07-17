@@ -821,7 +821,7 @@ Small devices (900px and smaller)
   .sketchwire {
     height: 7vh;
     width: auto;
-
+padding-top: 20vh;
     scale: .8;
   }
 
