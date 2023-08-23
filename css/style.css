@@ -406,8 +406,8 @@ h2 {
 
 
 
-.section, .section7, .section3 {
-  background-color: #ffa33a;
+ .section7 {
+  background-color: #ececec;
 
 }
 
@@ -470,7 +470,7 @@ h2 {
   right: 0;
   margin: 0 auto;
   padding: 5% 0 0 0;
-  background-color: #ffa33a;
+  background-color: #ececec;;
 }
 
 
