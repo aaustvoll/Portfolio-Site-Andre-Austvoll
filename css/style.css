@@ -492,19 +492,6 @@ span, p {
 }
 
 
-
-.copy.quote1 {
-  position: relative;
-  max-width: 40%;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  font-size: 2.5vh;
-}
-
 .placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve, .placeholder.thirteen, .placeholder.fourteen {
   position: relative;
   top: 0px;
@@ -709,6 +696,10 @@ Small devices (900px and smaller)
     gap: 5%;
   }
 
+  .section3, .section4, .section5 {
+flex-direction: column-reverse;
+  }
+
   .section1 {
     height: 140vh;
     width: 100%;
@@ -757,12 +748,7 @@ Small devices (900px and smaller)
     height: 110vh;
   }
 
-  .copy.quote1 {
-    position: relative;
-    max-width: 80%;
-    font-size: 2vh;
 
-  }
 
   .copy {
     margin: 0 2% 0 2%;
