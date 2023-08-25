@@ -537,10 +537,6 @@ span, p {
 .placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve, .placeholder.thirteen, .placeholder.fourteen {
   position: relative;
   top: 0px;
-
-
-
-
 }
 
 .placeholder.two {
@@ -759,6 +755,10 @@ flex-direction: column-reverse;
     padding: 0%;
   }
 
+  .section3 {
+    height: 110vh;
+    padding: 30% 0%;
+  }
   .section6 {
     height: 100vh;
     width: 100%;
@@ -776,14 +776,16 @@ flex-direction: column-reverse;
   }
 
   .section9 {
-    height: 140vh;
+    height: 90vh;
     width: 100%;
+
   }
 
   .section10, .section11 {
     height: 90vh;
     width: 100%;
     flex-direction: column-reverse;
+    padding: 5% 0 15% 0;
   }
 
   .section12 {
@@ -855,6 +857,10 @@ flex-direction: column-reverse;
     margin: 5% auto 0%;
   }
 
+  .placeholder.twelve {
+    width: 60vw;
+  }
+  
   .placeholder.thirteen, .placeholder.fourteen {
     border-radius: 20px;
   }
