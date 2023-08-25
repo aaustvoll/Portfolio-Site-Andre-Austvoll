@@ -373,6 +373,47 @@ h2 {
 
 
 
+#stage {
+  width: 30vw;
+  height: 30vw;
+  overflow: hidden;
+}
+
+#stage a {
+  position: relative;
+  transition: opacity 1s ease-in-out; 
+
+}
+#stage a img {
+  padding: 0px;
+}
+
+#stage a:nth-of-type(1) {
+  animation-name: fader;
+  animation-delay: 4s;
+  animation-duration: 2s;
+  z-index: 20;    
+  position: absolute;
+}
+#stage a:nth-of-type(2) {
+  z-index: 10;
+}
+#stage a:nth-of-type(n+3) {
+  display: none;
+}
+
+.slide {
+  width: 30vw;
+  height: 30vw;
+}
+
+@keyframes fader {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+
+
 .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
   height: 90vh;
   width: 100%;
@@ -476,6 +517,7 @@ h2 {
 
 
 .column1, .column2 {
+  position: relative;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -602,9 +644,9 @@ span, p {
 }
 
 .sketchwire {
-  height: 38vh;
+  height: 30vh;
   width: auto;
-
+padding-bottom: 10vh;
 }
 
 .sketchvr {
@@ -768,6 +810,19 @@ flex-direction: column-reverse;
     font-size: 3vh;
   }
 
+  #stage {
+    width: 60vw;
+    height: 60vw;
+    overflow: hidden;
+
+  }
+
+
+  .slide {
+    width: 60vw;
+    height: 60vw;
+
+  }
 
   .placeholder.one, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve {
     position: relative;
@@ -807,8 +862,9 @@ flex-direction: column-reverse;
   .sketchwire {
     height: 7vh;
     width: auto;
-padding-top: 20vh;
-    scale: .8;
+padding-top: 10vh;
+    scale: .6;
+    transform: translate(-30%, 0vh);
   }
 
   .sketchvr {
