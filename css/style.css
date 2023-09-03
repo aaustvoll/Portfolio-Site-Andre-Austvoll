@@ -211,6 +211,7 @@ header {
   position: inherit;
   /* The image used */
   background-image: url('../img/background/2023-ux-cover-10juli-circle-m.png');
+  background-image: url('../img/nature/snail-topscroll.jpg');
   /* Set a specific height */
   min-height: 100vh;
   width: auto;
@@ -413,7 +414,6 @@ h2 {
 .slide {
   width: 30vw;
   height: 30vw;
-
 }
 
 @keyframes fader {
