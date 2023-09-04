@@ -2,6 +2,7 @@ body,
 html {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 html {
@@ -210,11 +211,10 @@ header {
 .parallax {
   position: inherit;
   /* The image used */
-  background-image: url('../img/background/2023-ux-cover-10juli-circle-m.png');
-  background-image: url('../img/nature/snail-topscroll.jpg');
+  background-image: url('../img/nature/snail-topscroll-txt.jpg');
   /* Set a specific height */
   min-height: 100vh;
-  width: auto;
+  width: 100%;
 
 
   /* Create the parallax scrolling effect */
@@ -222,33 +222,23 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  scale: 1.1;
-  -webkit-filter: drop-shadow(5px 5px 15px #66666658);
-  filter: drop-shadow(5px 5px 15px #66666658);
+
 }
 
 .parallaxbg {
   position: absolute;
   /* The image used */
 
-  background: rgb(146, 226, 255);
-  background: rgb(146, 226, 255);
-  background: rgb(146, 226, 255);
-  background: linear-gradient(0deg, rgb(146, 179, 255) 17%, #7fcaff 59%, rgb(114, 114, 114) 65%);
-  background: #f3f3f3;
-  background-size: 400% 400%;
-
-
-  -webkit-animation: colorchange 40s ease infinite;
-  -moz-animation: colorchange 40s ease infinite;
-  animation: colorchange 40s ease infinite;
 
   /* Set a specific height */
   min-height: 100vh;
   width: 100%;
   top: 0;
+
+  left: -20%;
   overflow: hidden;
-  z-index: -1;
+
+
 
 }
 
@@ -304,20 +294,22 @@ header {
   }
 }
 
+
+
+
 .headertitle {
-  position: absolute;
+position: absolute;
   top: 46vh;
-  left: 3%;
+  left: 10%;
   right: 0;
   margin: 0 auto;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+
   font-size: 3.5vh;
   font-weight: 400;
-
+      z-index: 0;
+      overflow: hidden;
+      display: none;
 }
 
 
