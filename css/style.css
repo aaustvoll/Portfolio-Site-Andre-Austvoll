@@ -186,6 +186,7 @@ a:active {
 .cta.socialicons {
   background-color: transparent;
   border: none;
+  border-radius: 25px;
 }
 
 /* header and footer */
