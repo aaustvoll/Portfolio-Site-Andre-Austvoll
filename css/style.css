@@ -470,10 +470,10 @@ h2 {
 }
 
 .prototype {
-position: relative;
+
 
 width: 40vw;
-gap: 5vw;
+gap: 10vw;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -830,9 +830,9 @@ Small devices (900px and smaller)
   }
 
   .prototype {
-    position: relative;
+
     width: 20vw;
-    gap: 5vw;
+    gap: 10vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -907,9 +907,6 @@ Small devices (900px and smaller)
     border-radius: 5px;
   }
 
-  .placeholder.seven {
-
-  }
 
   .placeholder.nine {
     border-radius: 12px;
