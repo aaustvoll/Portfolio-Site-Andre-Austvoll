@@ -170,6 +170,19 @@ a:active {
 
 }
 
+.cta,.button1 {
+  border:solid #f50 1px;
+}
+/* mouse over link */
+.button1:hover {
+ 
+  transition: 0.5s;
+  opacity: 1;
+  color:black;
+  border:solid #f50 1px;
+  background-color: rgba(255, 255, 255, 0.273);
+}
+
 .cta.socialicons {
   background-color: transparent;
   border: none;
@@ -451,9 +464,6 @@ h2 {
   background: green;
 }
 
-
-
-
 .section7 {
   background: #ececec;
 
@@ -463,7 +473,10 @@ h2 {
   display: none;
 }
 
-
+.section10 {
+  padding: 0 5% 0 5%;
+  gap: 0%;
+}
 
 .section11 {
   padding: 0 10% 0 10%;
@@ -521,6 +534,7 @@ h2 {
   margin: 0 auto;
   padding: 5% 0 0 0;
   background-color: #f3f3f3;
+  background-color: #BCE7FF;
 }
 
 
@@ -599,13 +613,32 @@ span, p {
   filter: drop-shadow(0px 43px 37px 37px rgba(0, 0, 0, 0.25));
 }
 
+
+.mainbox { 
+  filter: drop-shadow(-15px 15px 30px rgba(0, 0, 0, 0.216));
+}
+
+
+.skillsplate {
+  width: 60vw;
+  height: 40vw;
+  background-color: #BCE7FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(36% 0, 100% 0, 100% 100%, 0 100%);  
+  filter: drop-shadow(1.25em .75em 10px rgb(0, 255, 0));
+}
+
+
 .placeholder.ten {
   width: auto;
-  height: 0vw;
-  padding: 0 0% 0 0;
-  border-radius: 5px;
-  -webkit-filter: drop-shadow(3px 63px 47px rgba(0, 0, 0, 0.265));
-  filter: drop-shadow(0px 43px 37px 37px rgba(0, 0, 0, 0.25));
+  height: 20vw;
+  left: 10%;
+  mix-blend-mode: multiply;
+opacity: 60%;
+  -webkit-filter: drop-shadow(3px 63px 47px rgba(0, 0, 0, 0.45));
+  filter: drop-shadow(0px 43px 37px 37px rgba(0, 0, 0, 0.45));
 
 }
 
@@ -827,7 +860,7 @@ Small devices (900px and smaller)
   #stage {
     width: 60vw;
     height: 60vw;
-    overflow: hidden;
+
 
   }
 
@@ -863,6 +896,17 @@ Small devices (900px and smaller)
     border-radius: 12px;
   }
 
+  .skillsplate {
+    width: 70vw;
+
+  }
+
+  .placeholder.ten {
+    width: auto;
+    height: 20vw;
+    left: 10%;
+  }
+  
   .placeholder.eleven {
     width: auto;
     height: 60vw;
@@ -904,25 +948,25 @@ Small devices (900px and smaller)
   .parallax {
     position: inherit;
     /* The image used */
-
+    background-image: url('../img/nature/snail-topscroll-txt-tablet.jpg');
 
     /* Set a specific height */
-    min-height: 40vh;
-    width: auto;
-    padding-top: 20vh;
+    height: auto;
+    width: 100%;
+    padding-top: 0vh;
+    top: 0;
     /* Create the parallax scrolling effect */
     background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding-bottom: 10%;
-    scale: 10vh;
+  
   }
 
 
   .parallaxbg {
     /* Set a specific height */
-    min-height: 60vh;
+    min-height: 0vh;
     padding-top: 0vh;
 
 
