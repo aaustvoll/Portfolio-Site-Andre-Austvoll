@@ -11,7 +11,7 @@ html {
 
 img {
   width: 100%;
-
+height: auto;
 }
 
 
@@ -152,10 +152,11 @@ a:active {
 }
 
 .cta {
+  width: 20vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 4px;
   color: white;
   background-color: #ff5a00;
   opacity: 1;
@@ -351,11 +352,15 @@ position: absolute;
 .copy {
   margin: 0 2% 0 2%;
   width: 40vh;
-  font-size: 2.5vh;
+  font-size: 2.1vh;
 }
 
 h2 {
-  font-size: 2.5vh;
+  font-size: 4vh;
+}
+
+h2 .about-social {
+font-size: 3vh;
 }
 
 .copy.copy2 {
@@ -377,8 +382,9 @@ h2 {
 
 .copy12b {
   position: relative;
-  font-size: 26px;
-  font-weight: 900;
+  font-size: 4vh;
+  font-weight: 400;
+  padding: 5%
 }
 
 
@@ -435,6 +441,7 @@ h2 {
 
 
 .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
+  position: relative;
   height: 90vh;
   width: 100%;
   display: flex;
