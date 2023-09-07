@@ -172,6 +172,7 @@ a:active {
 
 .cta, .button1 {
   border: solid #f50 1px;
+  border-radius: 50px;
 }
 
 /* mouse over link */
