@@ -397,6 +397,8 @@ h2 {
   overflow: hidden;
   -webkit-filter: drop-shadow(5px 5px 15px #66666658);
   filter: drop-shadow(5px 5px 15px #66666658);
+  -webkit-box-shadow: 5px 5px 15px #66666658;
+  
 }
 
 #stage a {
@@ -428,6 +430,7 @@ h2 {
 .slide {
   width: 35vw;
   height: 35vw;
+
 }
 
 @keyframes fader {
