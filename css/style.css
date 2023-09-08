@@ -14,6 +14,11 @@ img {
   height: auto;
 }
 
+svg{
+  width: 100%;
+  height: auto;
+}
+
 
 a {
   color: black;
@@ -170,7 +175,7 @@ a:active {
   font-size: 3vh;
 }
 
-.cta, .button1 {
+.button1 {
   border: solid #f50 1px;
   border-radius: 50px;
 }
@@ -187,14 +192,14 @@ a:active {
 
 .cta.socialicons {
   background-color: transparent;
-  border: none;
 
 }
 
 /* mouse over link */
 .socialicons:hover {
 transition: 400ms;
-scale: 1.1;
+scale: 1;
+opacity: .8;
 }
 
 /* header and footer */
@@ -335,22 +340,6 @@ header {
 }
 
 
-
-.odd {
-  background-color: rgb(177, 177, 177);
-  background-color: #ff5a00;
-  background-color: #ffa33a;
-  background-color: transparent;
-
-}
-
-.even {
-  background-color: rgb(120, 120, 120);
-  background-color: #c8c8c8;
-  background-color: transparent;
-
-}
-
 .footercopy {
   position: relative;
   width: 70%;
@@ -403,8 +392,8 @@ h2 {
 
 
 #stage {
-  width: 30vw;
-  height: 30vw;
+  width: 35vw;
+  height: 35vw;
   overflow: hidden;
   -webkit-filter: drop-shadow(5px 5px 15px #66666658);
   filter: drop-shadow(5px 5px 15px #66666658);
@@ -437,8 +426,8 @@ h2 {
 }
 
 .slide {
-  width: 30vw;
-  height: 30vw;
+  width: 35vw;
+  height: 35vw;
 }
 
 @keyframes fader {
@@ -453,7 +442,7 @@ h2 {
 
 
 
-.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12 {
+.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11 {
   position: relative;
   height: 90vh;
   width: 100%;
@@ -591,8 +580,10 @@ span, p {
 }
 
 .arrow-icon {
+  position: relative;
   width: 2.1vh;
-  transform: translate(0, .4vh);
+  
+  float: left;
 }
 
 .placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve, .placeholder.thirteen, .placeholder.fourteen {
@@ -725,14 +716,14 @@ span, p {
 
 .social {
   position: relative;
-  width: 20%;
+  width: 16%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
-  padding: 0% 10% 10% 10%;
-  gap: 20%;
+
+
 }
 
 /* ==============================
@@ -1028,4 +1019,6 @@ padding: 10vh 0 0 0;
 
   }
 
+
+  
 }
