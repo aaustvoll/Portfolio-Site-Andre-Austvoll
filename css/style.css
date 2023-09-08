@@ -397,7 +397,7 @@ h2 {
   overflow: hidden;
   -webkit-filter: drop-shadow(5px 5px 15px #66666658);
   filter: drop-shadow(5px 5px 15px #66666658);
-  -webkit-box-shadow: 5px 5px 15px #66666658;
+  -webkit-drop-shadow: 5px 5px 15px #66666658;
   
 }
 
