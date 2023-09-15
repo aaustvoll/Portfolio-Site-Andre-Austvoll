@@ -157,6 +157,8 @@ a:active {
   transform: translate(0, -90%);
 }
 
+
+
 .cta {
   display: flex;
   justify-content: center;
@@ -361,6 +363,18 @@ h2 {
 .about-social {
   font-size: 2.1vh;
 }
+
+
+
+.about-social::before {
+  display: inline-block;
+  width: 2.1vh;
+  height: 2.1vh;
+  content: "";
+  background: url("../img/icons/arrow-right-circle.svg") no-repeat 0 0;
+  background-size: 2.1vh 2.1vh;
+}
+
 
 .copy.copy2 {
   margin: 0 0% 0 0%;
