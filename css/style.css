@@ -412,7 +412,7 @@ h2 {
   -webkit-filter: drop-shadow(5px 5px 15px #66666658);
   filter: drop-shadow(5px 5px 15px #66666658);
   -webkit-drop-shadow: 5px 5px 15px #66666658;
-  
+
 }
 
 #stage a {
@@ -457,7 +457,16 @@ h2 {
   }
 }
 
-
+.background-plot {
+  position: absolute;
+  height: 91%;
+  width: 94%;
+  border-radius: 30px;
+  -webkit-filter: drop-shadow(5px 5px 15px #66666658);
+  filter: drop-shadow(5px 5px 15px #66666658);
+  z-index: -1;
+  background-color: white;
+}
 
 .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11 {
   position: relative;
@@ -819,7 +828,7 @@ Small devices (900px and smaller)
     width: 100%;
     flex-direction: column;
     padding: 5% 0 0 0;
-    gap: 5%;
+    gap: 5%;    
   }
 
   .section1 {
@@ -843,6 +852,7 @@ Small devices (900px and smaller)
     width: 100%;
     gap: 5%;
     padding: 15vh 0 5vh;
+
   }
 
   .section3 {
@@ -933,6 +943,7 @@ padding: 10vh 0 0 0;
   .slide {
     width: 60vw;
     height: 60vw;
+
   }
 
 
