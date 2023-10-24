@@ -240,10 +240,12 @@ header {
 .parallax {
   position: inherit;
   /* The image used */
-  background-image: url('../img/nature/snail-topscroll-txt.jpg');
+  background-image: url('../img/background/Landing-site-top-x2.webp');
   /* Set a specific height */
   min-height: 100vh;
   width: 100%;
+  -webkit-filter: drop-shadow(5px 5px 15px #66666658);
+  filter: drop-shadow(5px 5px 15px #66666658);
 
 
   /* Create the parallax scrolling effect */
