@@ -358,6 +358,12 @@ header {
   font-size: 2.1vh;
 }
 
+.section11 .copy {
+  margin: 0 2% 0 12%;
+  width: 40vh;
+  font-size: 2.1vh;
+}
+
 h2 {
   font-size: 2.1vh;
 }
@@ -525,7 +531,7 @@ h2 {
 }
 
 .section11 {
-  padding: 0 10% 0 10%;
+  padding: 0 0% 0 0%;
 }
 
 .columns {
@@ -811,6 +817,7 @@ Small devices (900px and smaller)
   .background-card {
     display: none;
   }
+  
   .columns {
  
     gap: 10vh;
