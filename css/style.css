@@ -240,7 +240,7 @@ header {
 .parallax {
   position: inherit;
   /* The image used */
-  background-image: url('../img/header/colordance desktop cover 90.webp');
+  background-image: url('../img/header/working-cover.webp');
   /* Set a specific height */
   min-height: 100vh;
   width: 100%;
