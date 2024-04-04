@@ -34,7 +34,7 @@ a {
 .navbar {
   top: 0;
   width: 100%;
-
+  
 }
 
 
@@ -200,7 +200,7 @@ a:active {
 /* mouse over link */
 .socialicons:hover {
 transition: 400ms;
-scale: 1;
+scale: 1.1;
 opacity: .8;
 }
 
@@ -226,7 +226,7 @@ header {
   justify-content: space-between;
   align-items: baseline;
   flex-direction: row;
-  z-index: 1;
+  z-index: 100;
 }
 
 
@@ -343,6 +343,14 @@ header {
   display: none;
 }
 
+.footer {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .footercopy {
   position: relative;
@@ -375,7 +383,7 @@ h2 {
 
 
 .about-social::before {
-  display: inline-block;
+
   width: 2.1vh;
   height: 2.1vh;
   content: "";
@@ -558,6 +566,7 @@ h2 {
   text-align: center;
   margin: 0 auto;
   /* Center the columns horizontally */
+  object-fit: contain;
 }
 
 .section6 {
@@ -579,7 +588,7 @@ h2 {
   position: relative;
   display: flex;
   flex-wrap: nowrap;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
@@ -618,12 +627,19 @@ span, p {
   float: left;
 }
 
-.placeholder.two, .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve, .placeholder.thirteen, .placeholder.fourteen {
+.picture.one {
+max-width: 400px;
+max-height: 300px;
+object-fit: contain;
+
+}
+
+.picture.two, .picture.three, .picture.four, .picture.five, .picture.six, .picture.seven, .picture.eight, .picture.nine, .picture.ten, .picture.eleven, .picture.twelve, .picture.thirteen, .picture.fourteen {
   position: relative;
   top: 0px;
 }
 
-.placeholder.two {
+.picture.two {
   width: 100%;
   height: auto;
   left: 0;
@@ -633,7 +649,7 @@ span, p {
 
 }
 
-.placeholder.three, .placeholder.four, .placeholder.five {
+.picture.three, .picture.four, .picture.five {
   width: auto;
   height: 40vw;
   right: 0%;
@@ -644,7 +660,7 @@ span, p {
 
 
 
-.placeholder.six {
+.picture.six {
   width: 37vw;
   height: 37vw;
   padding: 0 0% 0 0;
@@ -653,7 +669,7 @@ span, p {
   object-fit: cover;
 }
 
-.placeholder.seven {
+.picture.seven {
   width: auto;
   height: 58vh;
   padding: 0 0% 0 0;
@@ -661,7 +677,7 @@ span, p {
   filter: drop-shadow(0px 43px 37px 37px rgba(0, 0, 0, 0.25));
 }
 
-.placeholder.nine {
+.picture.nine {
   width: auto;
   height: 40vw;
   padding: 0 0% 0 0;
@@ -688,7 +704,7 @@ span, p {
 }
 
 
-.placeholder.ten {
+.picture.ten {
   width: auto;
   height: 20vw;
   left: 10%;
@@ -699,35 +715,38 @@ span, p {
 
 }
 
-.placeholder.eleven {
+.picture.eleven {
   width: auto;
   height: 20vw;
   margin: 0% auto;
 }
 
 .containertwelve {
+  width: 30%;
   position: relative;
-  text-align: center;
   color: rgb(0, 0, 0);
-
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 1vh;
 }
 
-.placeholder.twelve {
-  width: 80%;
+.picture.twelve {
+  width: 50%;
   height: auto;
   left: 0;
   right: 0;
   margin: 0 auto;
-  padding: 15% 0 0 0;
+  padding: 5% 0 0 0;
   -webkit-filter: drop-shadow(-5px 5px 15px #66666658);
   filter: drop-shadow(-10px 13px 35px #66666658);
 }
 
 
 
-.placeholder.thirteen, .placeholder.fourteen {
+.picture.thirteen, .picture.fourteen {
   border-radius: 10px;
-  width: 10vh;
+  width: 6vw;
   height: auto;
 }
 
@@ -735,22 +754,22 @@ span, p {
   position: relative;
   height: 30vh;
   width: auto;
-  padding: 10vh 0 5vh 0;
-
+  padding: 5vh 2vw 5vh 2vw;
 }
 
 .sketchvr {
   position: relative;
   height: 44vh;
   width: auto;
+  padding: 5vh 2vw 5vh 2vw;
 }
 
 .social {
   position: relative;
-  width: 16%;
+  width: 40%;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
 
@@ -958,7 +977,7 @@ padding: 10vh 0 0 0;
   }
 
 
- .placeholder.three, .placeholder.four, .placeholder.five, .placeholder.six, .placeholder.seven, .placeholder.eight, .placeholder.nine, .placeholder.ten, .placeholder.eleven, .placeholder.twelve {
+ .picture.three, .picture.four, .picture.five, .picture.six, .picture.seven, .picture.eight, .picture.nine, .picture.ten, .picture.eleven, .picture.twelve {
     position: relative;
     width: auto;
     height: 70vw;
@@ -968,12 +987,12 @@ padding: 10vh 0 0 0;
 
 
 
-  .placeholder.six {
+  .picture.six {
     border-radius: 5px;
   }
 
 
-  .placeholder.nine {
+  .picture.nine {
     border-radius: 12px;
   }
 
@@ -982,25 +1001,26 @@ padding: 10vh 0 0 0;
 
   }
 
-  .placeholder.ten {
+  .picture.ten {
     width: auto;
     height: 20vw;
     left: 10%;
   }
 
-  .placeholder.eleven {
+  .picture.eleven {
     width: auto;
     height: 50vw;
     margin: 5% auto 0%;
   }
 
-  .placeholder.twelve {
+  .picture.twelve {
     width: 60vw;
     padding: 2% 0 0 0;
   }
 
-  .placeholder.thirteen, .placeholder.fourteen {
-    border-radius: 20px;
+  .picture.thirteen, .picture.fourteen {
+    width: 18vw;
+    height: auto;
   }
 
   .sketchwire {
@@ -1017,8 +1037,13 @@ padding: 10vh 0 0 0;
   }
 
 
-  
-  
+  .social {
+    position: relative;
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
   .headline {
     position: relative;
