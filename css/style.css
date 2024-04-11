@@ -438,7 +438,8 @@ display: none;
   height: 30vw;
   overflow: hidden;
 object-fit: contain;
-
+background-color: #4a4a4a;
+border-radius: 20px;
 }
 
 #stage a {
@@ -452,22 +453,29 @@ object-fit: contain;
 }
 
 #stage a:nth-of-type(1) {
+  position: absolute;
   animation-name: fader;
   animation-delay: 2s;
   animation-duration: 2s;
   z-index: 20;
+
+
 }
 
 #stage a:nth-of-type(2) {
   z-index: 10;
+  position: absolute;
+
 }
 
 #stage a:nth-of-type(n+3) {
+  position: absolute;
   display: none;
 }
 
 
 .slide {
+  position: absolute;
   width: 30vw;
   height: 30vw;
 }
