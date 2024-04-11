@@ -354,8 +354,7 @@ header {
 
   font-family: 'Helvetica Neue';
 
-
-}
+  letter-spacing: 1.1px;}
 
 .footer {
   width: 40%;
@@ -435,8 +434,8 @@ display: none;
 
 
 #stage {
-  width: 35vw;
-  height: 60vh;
+  width: 30vw;
+  height: 30vw;
   overflow: hidden;
 object-fit: contain;
 
@@ -469,9 +468,8 @@ object-fit: contain;
 
 
 .slide {
-  width: 100vw;
-  height: 100vh;
-
+  width: 30vw;
+  height: 30vw;
 }
 
 @keyframes fader {
@@ -985,6 +983,7 @@ Small devices (900px and smaller)
     font-weight: 400;
 
     font-size: 4vh;  
+    
   }
 
 
@@ -1125,7 +1124,7 @@ padding: 1vh 5vw;
 
   #stage {
     width: 50vw;
-    height: 50vh;
+    height: 50vw;
 
   }
 
