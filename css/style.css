@@ -789,15 +789,16 @@ margin: 5%;
 
 
 .mainbox {
+  -webkit-filter: drop-shadow(-15px 15px 30px rgba(0, 0, 0, 0.216));
   filter: drop-shadow(-15px 15px 30px rgba(0, 0, 0, 0.216));
 }
 
 
 .skillsplate {
+  position: relative;
   width: 42vw;
   height: 40vw;
   background-color: #BCE7FF;
-
   border-radius: 10px;
 
 }
@@ -805,20 +806,17 @@ margin: 5%;
 
 .blob {
   position: absolute;
-  transform: scale(1);
   box-shadow: 0 0 2px rgba(black, 0.3);
   mix-blend-mode: multiply;
   width: 41vw;
   height: auto;
-  top: 11%;
-  left: -50%;
+  top: 2%;
+  left: 0%;
   right: 0;
   margin: 0 auto;
 
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1) rotate(-35deg);
+overflow: visible;
 
-  object-fit: contain;
 }
 
 svg:hover path {
@@ -847,9 +845,11 @@ svg:active {
 
 
 svg {
+  position: absolute;
   mix-blend-mode: multiply;
   transition: 0.2s;
   fill: rgb(0, 55, 255);
+
   -webkit-filter: drop-shadow(3px 63px 47px rgba(0, 0, 0, 0.45));
   filter: drop-shadow(0px 43px 27px 27px rgba(0, 0, 0, 0.25));
 
@@ -859,14 +859,14 @@ svg {
 @keyframes morph {
   0%, 100% {
     d: path("m16.14 5.49C24.9 3.97 25.85.66 32.53.08c6.12-.53 16.06 1.32 19.61 8.41 3.91 7.8-1.91 17.97-8 23-8.02 6.63-19.14 6.53-27 3C3.54 28.39-2.76 10.93 1.14 6.49c2.08-2.37 5.63.62 15-1Z");
-    transform: translate(0, -5%) rotate(5deg);
+    transform: translate(18%, 0%) rotate(25deg) ;
     fill: rgba(0, 55, 255, 0.432);
 
   }
 
   50% {
     d: path("m1.65 1.36c2.83-3 7.47-.6 26 3 19.44 3.77 24.17 3.04 26 7 2.93 6.34-5.24 16.88-13 22-2.15 1.42-11.6 7.65-22 4-6.98-2.45-10.11-8.6-13-14C4.36 20.94-3.31 6.61 1.65 1.36Z");
-    transform: translate(0, 2%) rotate(-10deg);
+    transform: translate(12%, 5%) rotate(10deg);
     fill: rgba(140, 0, 255, 0.741);
   }
 }
