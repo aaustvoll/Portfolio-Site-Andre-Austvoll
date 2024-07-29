@@ -259,7 +259,7 @@ header {
 .parallax {
   position: inherit;
   /* The image used */
-  background-image: url('../img/nature/bubbling-ideas-24aa.webp');
+  background-image: url('../img/nature/Dolimites-2024AA-IMG_4934 kopi.webp');
   /* Set a specific height */
   min-height: 100vh;
   width: 100%;
@@ -872,14 +872,17 @@ svg {
   0%, 100% {
     d: path("m16.14 5.49C24.9 3.97 25.85.66 32.53.08c6.12-.53 16.06 1.32 19.61 8.41 3.91 7.8-1.91 17.97-8 23-8.02 6.63-19.14 6.53-27 3C3.54 28.39-2.76 10.93 1.14 6.49c2.08-2.37 5.63.62 15-1Z");
     transform: translate(18%, 0%) rotate(25deg) ;
-    fill: rgba(0, 55, 255, 0.432);
-
+    fill: navy;
+    fill-opacity: 0.4;
+    
   }
 
   50% {
     d: path("m1.65 1.36c2.83-3 7.47-.6 26 3 19.44 3.77 24.17 3.04 26 7 2.93 6.34-5.24 16.88-13 22-2.15 1.42-11.6 7.65-22 4-6.98-2.45-10.11-8.6-13-14C4.36 20.94-3.31 6.61 1.65 1.36Z");
     transform: translate(12%, 5%) rotate(10deg);
-    fill: rgba(140, 0, 255, 0.741);
+
+    fill: darkblue;
+    fill-opacity: 0.3;
   }
 }
 
