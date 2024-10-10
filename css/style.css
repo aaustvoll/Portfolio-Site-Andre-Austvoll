@@ -173,6 +173,7 @@ a:active {
 
 
 
+
 .cta {
  max-width: 25vw;
  min-width: 20vw;
@@ -385,6 +386,8 @@ header {
   font-size: 2.1vh;
 }
 
+
+
 .section11 .copy {
   margin: 0 2% 0 12%;
 
@@ -441,12 +444,14 @@ display: none;
 
 
 #stage {
-  width: 30vw;
-  height: 30vw;
+  width: 40vw;
+  height: 40vw;
   overflow: hidden;
 object-fit: contain;
 background-color: #4a4a4a;
 border-radius: 20px;
+clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+background: #3B8686;
 }
 
 #stage a {
@@ -483,8 +488,8 @@ border-radius: 20px;
 
 .slide {
   position: absolute;
-  width: 30vw;
-  height: 30vw;
+  width: 40vw;
+  height: 40vw;
 }
 
 @keyframes fader {
@@ -511,6 +516,7 @@ border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10%;
 }
 
 .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11 {
@@ -549,12 +555,13 @@ border-radius: 20px;
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
-
 }
 
 .background-card.case {
 background-color: rgba(255, 0, 0, 0);
+
 }
+
 
 .section7 {
   background: #ececec;
@@ -562,11 +569,12 @@ background-color: rgba(255, 0, 0, 0);
 }
 
 .prototype {
-  width: 40vw;
+  width:10vw;
   gap: 10vw;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .section8 {
@@ -616,7 +624,7 @@ background-color: rgba(255, 0, 0, 0);
 }
 
 .section6 {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
@@ -626,7 +634,7 @@ background-color: rgba(255, 0, 0, 0);
 
   text-align: left;
   margin: 0 auto;
-
+padding-left: 5vw;
 
 }
 
@@ -647,6 +655,7 @@ background-color: rgba(255, 0, 0, 0);
   right: 0;
 margin: 0 auto;
   background-color: #BCE7FF;
+  background-color: #ff9130;
   padding: 5%;
 }
 
@@ -813,7 +822,7 @@ margin: 5%;
   position: relative;
   width: 42vw;
   height: 40vw;
-  background-color: #BCE7FF;
+  background-color: transparent;
   border-radius: 10px;
 
 }
@@ -837,7 +846,7 @@ svg:hover path {
 }
 
 svg:active path {
-  fill: rgb(0, 8, 255);
+  fill: orangered;
   stroke: black;
   stroke-width: 2;
 }
@@ -860,7 +869,7 @@ svg {
   position: absolute;
   mix-blend-mode: multiply;
   transition: 0.2s;
-  fill: rgb(0, 55, 255);
+  fill: orangered;
 
   -webkit-filter: drop-shadow(3px 63px 47px rgba(0, 0, 0, 0.45));
   filter: drop-shadow(0px 43px 27px 27px rgba(0, 0, 0, 0.25));
@@ -872,17 +881,21 @@ svg {
   0%, 100% {
     d: path("m16.14 5.49C24.9 3.97 25.85.66 32.53.08c6.12-.53 16.06 1.32 19.61 8.41 3.91 7.8-1.91 17.97-8 23-8.02 6.63-19.14 6.53-27 3C3.54 28.39-2.76 10.93 1.14 6.49c2.08-2.37 5.63.62 15-1Z");
     transform: translate(18%, 0%) rotate(25deg) ;
-    fill: navy;
-    fill-opacity: 0.4;
+    fill: orangered;
+    fill-opacity: 0.8;
     
+  }
+
+  30% {
+
   }
 
   50% {
     d: path("m1.65 1.36c2.83-3 7.47-.6 26 3 19.44 3.77 24.17 3.04 26 7 2.93 6.34-5.24 16.88-13 22-2.15 1.42-11.6 7.65-22 4-6.98-2.45-10.11-8.6-13-14C4.36 20.94-3.31 6.61 1.65 1.36Z");
     transform: translate(12%, 5%) rotate(10deg);
 
-    fill: darkblue;
-    fill-opacity: 0.3;
+    fill: orange;
+    fill-opacity: 0.8;
   }
 }
 
@@ -1082,6 +1095,7 @@ Small devices (900px and smaller)
     flex-direction: column-reverse;
     padding: 10% 0 5vh 0;
     gap: 5%;
+    
   }
 
   .prototype {
