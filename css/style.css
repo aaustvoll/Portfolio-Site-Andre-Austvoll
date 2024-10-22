@@ -518,6 +518,7 @@ background: #3B8686;
   align-items: center;
   justify-content: center;
   margin-bottom: 10%;
+  margin-top: 15%;
 }
 
 .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11 {
@@ -856,6 +857,14 @@ svg:active path {
   transition: d 4s, fill 0.6s;
   animation: morph 10s infinite;
 }
+
+
+.blob2 svg path {
+  transition: d 4s, fill 0.6s;
+  animation: morph 10s infinite -2s;
+
+}
+
 
 svg:active {
   background: #eee;
