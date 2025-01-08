@@ -18,7 +18,7 @@ html {
  .roboto-condensed-font {
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+
   font-style: normal;
 }
 
@@ -723,7 +723,7 @@ object-fit: contain;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
-padding: 0% 0 5%;
+padding: 0% 0 10%;
 
 }
 
