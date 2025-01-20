@@ -86,7 +86,7 @@ ul {
 
 
 
-ul il {
+ul li {
   display: flex;
   flex-direction: column;
 }
@@ -252,7 +252,7 @@ header {
 
 
 
-.section {
+.section1 {
   position: relative;
   font-size: 26%;
 }
@@ -707,7 +707,7 @@ object-fit: contain;
 
 .copy.sketch {
   max-width: 50vw;
-  height: 20vh;
+  height: auto;
 
 }
 
@@ -1066,7 +1066,7 @@ Small devices (900px and smaller)
   .section1 {
 
     width: 100%;
-    height: 100vh;
+    height: auto;
 
     flex-direction: column;
     padding: 8vh 0 2vh 0;
@@ -1119,7 +1119,7 @@ Small devices (900px and smaller)
 
   .section9 {
 
-    padding: 70vh 0 0 0;
+    padding: 20vh 0 0 0;
   }
 
   .section10, .section11 {
@@ -1282,3 +1282,5 @@ object-fit: contain;
 
 
 }
+
+
