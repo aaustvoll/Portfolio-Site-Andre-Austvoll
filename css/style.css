@@ -658,6 +658,8 @@ h2 {
   margin: 0 auto;
   background-color: #BCE7FF;
   background-color: #ff9130;
+  background-color: black;
+  color: white;
   padding: 5%;
 }
 
