@@ -260,7 +260,9 @@ header {
 .parallax {
   position: inherit;
   /* The image used */
-  background-image: url('../img/nature/Dolimites-2024AA-IMG_4934 kopi.webp');
+
+  
+    background-image: url('../img/background/background-realistic-abstract-technology-particle_23-2148431735.avif');
   /* Set a specific height */
   min-height: 100vh;
   width: 100%;
@@ -442,8 +444,8 @@ h2 {
 }
 
 #clip-shape {
-  width: 36vw;
-  height: 42vw;
+  width: 32vw;
+  height: 38vw;
   object-fit: fill;
   clip-path: polygon(50% 0px, 100% 25%, 100% 75%, 50% 100%, 0px 75%, 0px 25%);
   overflow: hidden;
@@ -452,10 +454,10 @@ h2 {
 }
 
 #clip-shadow {
-  -webkit-filter: drop-shadow(5px 5px 15px red);
-  filter: drop-shadow(-0px 0px 20px rgba(255, 115, 0, 0.5));
-  filter: drop-shadow(-0px 0px 20px rgba(255, 115, 0, 0.5));
 
+    -webkit-filter: drop-shadow(5px 5px 15px navy);
+  filter: drop-shadow(-0px 0px 20px rgba(23, 28, 45, 0.5));
+  filter: drop-shadow(-0px 0px 20px rgba(11, 25, 60, 0.5));
 }
 
 #stage {
@@ -545,7 +547,8 @@ h2 {
   -webkit-filter: drop-shadow(5px 5px 15px #66666658);
   filter: drop-shadow(5px 5px 15px #66666658);
   z-index: 1;
-  background-color: rgb(0, 0, 0);
+background: #3a3f4f;
+background: linear-gradient(90deg, rgba(58, 63, 79, 1) 0%, rgba(44, 73, 133, 1) 50%, rgba(27, 60, 143, 1) 100%);
   color: white;
   display: flex;
   align-items: center;
@@ -693,6 +696,8 @@ h2 {
   background-color: #BCE7FF;
   background-color: #ff9130;
   background-color: black;
+  background: #3a3f4f;
+background: linear-gradient(90deg, rgba(58, 63, 79, 1) 0%, rgba(44, 73, 133, 1) 50%, rgba(27, 60, 143, 1) 100%);
   color: white;
   padding: 5%;
 }
@@ -803,7 +808,7 @@ span, p {
 
 
 .picture.six {
-  width: 40vw;
+  max-width: 40vw;
   height: 20vw;
   object-fit: cover;
 }
