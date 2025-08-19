@@ -428,7 +428,10 @@ h2 {
 }
 
 
-
+.portrait {
+  width: 43vw;
+  transform: translate(0, -10vw);
+}
 
 
 .contact_details {
@@ -461,67 +464,51 @@ h2 {
 }
 
 #stage {
+  position: relative;
   width: 36vw;
-  height: 42vw;
-  overflow: hidden;
-  object-fit: contain;
-  background-color: #4a4a4a;
-  border-radius: 20px;
-  clip-path: polygon(50% -50%, 100% 50%, 50% 150%, 0 50%);
-  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  background: #3B8686;
+  height: 36vw;      /* stage acts as a viewport */
+  margin: 5vw;
 
+
+  background: none;
 }
 
 #stage a {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
   transition: opacity 1s ease-in-out;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #stage a img {
-  padding: 0px;
-  border-radius: 20px;
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;      /* preserve ratio, no crop */
+  border: 1px solid rgb(238, 238, 238);  /* border follows image */
+  box-sizing: border-box;   /* ensure border is included in size */
 }
 
-#stage a:nth-of-type(1) {
-  position: absolute;
-  animation-name: fader;
-  animation-delay: 2s;
-  animation-duration: 2s;
-  z-index: 20;
-
-
+#stage a.active {
+  opacity: 1;
+  z-index: 2;
 }
 
-#stage a:nth-of-type(2) {
-  z-index: 10;
-  position: absolute;
-
-}
-
-#stage a:nth-of-type(n+3) {
-  position: absolute;
-  display: none;
+#stage a.fading {
+  opacity: 0;
+  z-index: 3;
 }
 
 
 .slide {
   position: absolute;
-  width: 42vw;
+  max-width: 100%;
   height: auto;
 }
-
-@keyframes fader {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-
-
 
 .background-card {
   position: absolute;
@@ -858,8 +845,7 @@ span, p {
 
 
 .mainbox {
-  -webkit-filter: drop-shadow(-15px 15px 30px rgba(0, 0, 0, 0.216));
-  filter: drop-shadow(-15px 15px 30px rgba(0, 0, 0, 0.216));
+
 }
 
 
@@ -875,7 +861,7 @@ span, p {
 
 
 .blob {
-  box-shadow: 0 0 2px rgba(black, 0.3);
+
   mix-blend-mode: multiply;
   width: 41vw;
   height: auto;
@@ -883,6 +869,7 @@ span, p {
   left: 0%;
   right: 0;
   margin: 0 auto;
+
 }
 
 svg:hover path {
@@ -899,6 +886,7 @@ svg:active path {
 .blob svg path {
   transition: d 4s, fill 0.6s;
   animation: morph 10s infinite;
+
 }
 
 
@@ -914,7 +902,7 @@ svg:active {
   padding: 5px;
   border-radius: 10px;
   transform: scale(3.85);
-  box-shadow: 0 0 2px rgba(black, 0.5);
+
 }
 
 
@@ -924,8 +912,7 @@ svg {
   transition: 0.2s;
   fill: orangered;
 
-  -webkit-filter: drop-shadow(3px 63px 47px rgba(0, 0, 0, 0.45));
-  filter: drop-shadow(0px 43px 27px 27px rgba(0, 0, 0, 0.25));
+
 
 }
 
@@ -945,7 +932,7 @@ svg {
     d: path("m1.65 1.36c2.83-3 7.47-.6 26 3 19.44 3.77 24.17 3.04 26 7 2.93 6.34-5.24 16.88-13 22-2.15 1.42-11.6 7.65-22 4-6.98-2.45-10.11-8.6-13-14C4.36 20.94-3.31 6.61 1.65 1.36Z");
     transform: translate(12%, 5%) rotate(10deg);
 
-    fill: orange;
+    fill: rgb(56, 63, 245);
     fill-opacity: 0.8;
   }
 }
@@ -962,8 +949,7 @@ svg {
   text-align: center;
   mix-blend-mode: multiply;
   opacity: 90%;
-  -webkit-filter: drop-shadow(3px 63px 47px rgba(0, 0, 0, 0.45));
-  filter: drop-shadow(0px 43px 37px 37px rgba(0, 0, 0, 0.45));
+
 
 
 }
