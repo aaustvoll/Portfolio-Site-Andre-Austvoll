@@ -212,7 +212,7 @@ a:active {
 .cta.socialicons {
   background-color: transparent;
   max-width: 5vw;
-  min-width: 2vw;
+  min-width: 8vw;
   transition: 0.5s ease-in-out;
 
 }
@@ -255,6 +255,8 @@ header {
 .section1 {
   position: relative;
   font-size: 26%;
+background-color: red;
+  display: none;
 }
 
 .parallax {
@@ -375,9 +377,11 @@ header {
   flex-direction: column;
 }
 
+
+
 .footercopy {
   position: relative;
-  width: 70%;
+  width: 100%;
   font-size: 3vh;
   font-weight: 400;
 
@@ -468,8 +472,6 @@ h2 {
   width: 36vw;
   height: 36vw;      /* stage acts as a viewport */
   margin: 5vw;
-
-
   background: none;
 }
 
@@ -558,6 +560,7 @@ background: linear-gradient(90deg, rgba(58, 63, 79, 1) 0%, rgba(44, 73, 133, 1) 
 
 }
 
+
 .section1 {
   position: relative;
   height: 80vh;
@@ -568,7 +571,7 @@ background: linear-gradient(90deg, rgba(58, 63, 79, 1) 0%, rgba(44, 73, 133, 1) 
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
-
+  display: none;
 }
 
 .section2 {
@@ -795,7 +798,7 @@ span, p {
 
 
 .picture.six {
-  max-width: 40vw;
+
   height: 20vw;
   object-fit: cover;
 }
@@ -975,9 +978,6 @@ svg {
 .picture.twelve {
   width: 50%;
   height: auto;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
   padding: 5% 0 0 0;
   -webkit-filter: drop-shadow(-5px 5px 15px #66666658);
   filter: drop-shadow(-10px 13px 35px #66666658);
@@ -1079,6 +1079,11 @@ Small devices (900px and smaller)
     flex-direction: column-reverse;
 
   }
+
+  .portrait {
+  width: 63vw;
+  transform: translate(0, -10vw);
+}
 
   .section1b.copy.columns, .section8a.copy.columns {
     flex-direction: column;
@@ -1202,15 +1207,12 @@ Small devices (900px and smaller)
   }
 
   #stage {
-    width: 50vw;
+    width: 70vw;
     height: 56vw;
 
   }
 
-  .slide {
-    width: 56vw;
-    height: auto;
-  }
+
 
 
 
@@ -1223,8 +1225,19 @@ Small devices (900px and smaller)
     padding: 10%;
   }
 
+  #clip-shape {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 60vw;
+    height: 60vw;
+   clip-path: none;
+  }
 
+  .picture.five {
 
+padding: 0%;
+  }
 
   .picture.six {
     border-radius: 5px;
