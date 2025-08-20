@@ -375,6 +375,7 @@ background-color: red;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: white;
 }
 
 
@@ -1030,7 +1031,9 @@ Medium devices (640px and larger)
 
   }
 
-
+.parallax {
+  background-attachment: scroll; /* fallback for mobile */
+}
 
 }
 
@@ -1064,7 +1067,9 @@ Small devices (900px and smaller)
 
   }
 
-
+.parallax {
+  background-attachment: scroll; /* fallback for mobile */
+}
 
   .columns {
 
