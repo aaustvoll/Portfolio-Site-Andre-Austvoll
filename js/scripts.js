@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", function () {
   const slides = stage.querySelectorAll("a");
   let current = 0;
   const fadeDuration = 1000;   // 1s, matches CSS transition
-  const displayTime = 3000;    // 3s visible before fade starts
+  const displayTime = 2000;    // 3s visible before fade starts
 
   function showNextSlide() {
     const outgoing = slides[current];
