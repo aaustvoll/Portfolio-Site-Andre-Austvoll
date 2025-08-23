@@ -787,7 +787,6 @@ span, p {
   position: relative;
   width: 40vw;
   height: 40vw;
-
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -1035,6 +1034,9 @@ Medium devices (640px and larger)
   background-attachment: scroll; /* fallback for mobile */
 }
 
+
+
+
 }
 
 /* ==============================
@@ -1043,6 +1045,20 @@ Small devices (900px and smaller)
 
 
 @media only screen and (max-width: 1200px) and (orientation: portrait) {
+  
+  .picture.work.ux {
+  position: relative;
+  width: 55vw;
+  height: auto;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-evenly;
+  object-fit: contain;
+  gap: 10%;
+}
+
+
   .navtoggle.responsive ul {
     position: relative;
     display: flex;
