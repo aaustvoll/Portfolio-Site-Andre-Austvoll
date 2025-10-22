@@ -377,6 +377,10 @@ background-color: red;
   letter-spacing: 1.1px;
 }
 
+.headersub {
+    font-size: 3vw;
+}
+
 .footer {
   width: 40%;
   height: 100%;
@@ -1081,10 +1085,12 @@ Small devices (900px and smaller)
     right: 0;
     margin: 0 auto;
     font-weight: 400;
-
     font-size: 4vh;
-
   }
+
+  .headersub {
+    font-size: 3vh;
+}
 
 .parallax {
   background-attachment: scroll; /* fallback for mobile */
