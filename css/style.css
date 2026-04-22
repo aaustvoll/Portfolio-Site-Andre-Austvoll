@@ -448,7 +448,10 @@ h2 {
 .portrait {
   width: 38vw;
   transform: translate(0, 3vw);
+  border-radius: 20px;
 }
+
+
 
 
 .contact_details {
@@ -1114,6 +1117,7 @@ height: fit-content;
   .portrait {
   width: 63vw;
   transform: translate(0, -10vw);
+
 }
 
   .section1b.copy.columns, .section8a.copy.columns {
