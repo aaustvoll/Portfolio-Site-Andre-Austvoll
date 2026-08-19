@@ -19,11 +19,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet" type="text/css" href="css/style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
 
   <meta name="author" content="André Austvoll">
-  <meta name="description" content="André Austvoll — Interaction Designer and video Specialist based in Oslo. Designing user-centred digital products, immersive experiences, and interactive prototypes.">
+  <meta name="description"
+    content="André Austvoll — Interaction Designer and video Specialist based in Oslo. Designing user-centred digital products, immersive experiences, and interactive prototypes.">
   <meta name="Portfolio" content="André Austvoll, Designer, Oslo">
   <script src="https://kit.fontawesome.com/1cac191fbb.js" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
@@ -48,56 +50,71 @@
 
 <body>
 
-<header class="container ">
+  <header class="container ">
 
-  <!-- HERE STARTS THE FROZEN NAV BAR -->
-  <div class="navbar">
-    <div class="headline"><a href="index.html">André Austvoll — Designer</a></div>
+    <!-- HERE STARTS THE FROZEN NAV BAR -->
+    <div class="navbar">
+      <div class="headline"><a href="index.html">André Austvoll — Designer</a></div>
+    </div>
+
+    <nav class="navtoggle" id="myNavtoggle">
+      <ul>
+        <br>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+      </ul>
+    </nav>
+
+
+  </header>
+
+
+
+
+
+  <!-- HERE STARTS THE PARALLAX -->
+  <div class="parallax">
+
   </div>
 
-  <nav class="navtoggle" id="myNavtoggle">
-    <ul>
-      <br>
-      <li><a href="#about">About</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-    </ul>
-  </nav>
+  <div class="parallaxbg">
+
+    <div class="blob-container-top">
+   
+     <div class="blob background"></div>
 
 
-</header>
+      <div class="blob bottom"></div>
 
 
+      <div class="blob middle"></div>
 
 
+      <div class="blob top"></div>
+    </div>
 
-<!-- HERE STARTS THE PARALLAX -->
-<div class="parallax">
-
-</div>
-
-<div class="parallaxbg">
-</div>
-   <div class="picture one ">
-       <!-- <img class="sketchvr" src="img/illustrations/Vr-vision-sketch.svg" alt="virtual reality sketch">-->   
-        </div>
-<div class="headertitle">
-     
-        
-  <div style="text-shadow: 0px 0px 30px #000000b9; font-weight: 400; text-transform: uppercase;">
-    André Austvoll</div>
-  <div class="headersub" style="text-shadow: 0px 0px 30px #000000b9; font-weight: 100;  ">
-  INTERACTION DESIGNER <br></div>
-  <div class="headersub" style="font-size: .5em; text-shadow: 0px 0px 30px #000000b9; font-weight: 100;  ">
-  Experienced in Project Management,<br> UX Design, and Frontend Development <br></div>
+  </div>
+  <div class="picture one ">
+    <!-- <img class="sketchvr" src="img/illustrations/Vr-vision-sketch.svg" alt="virtual reality sketch">-->
+  </div>
+  <div class="headertitle">
 
 
-</div>
-<!-- HERE ENDS THE PARALLAX -->
+    <div style="text-shadow: 0px 0px 30px #000000b9; font-weight: 400; text-transform: uppercase;">
+      André Austvoll</div>
+    <div class="headersub" style="text-shadow: 0px 0px 30px #000000b9; font-weight: 100;  ">
+      INTERACTION DESIGNER <br></div>
+    <div class="headersub" style="font-size: .5em; text-shadow: 0px 0px 30px #000000b9; font-weight: 100;  ">
+      Experienced in Project Management,<br> UX Design, and Frontend Development <br></div>
 
 
-<!-- HERE STARTS THE BODY -->
+  </div>
+  <!-- HERE ENDS THE PARALLAX -->
+
+
+  <!-- HERE STARTS THE BODY -->
 
 
 
@@ -110,14 +127,17 @@
     <div class="copy">
       <p>ABOUT</p>
       <div class="hr"></div>
-      I am skilled in interaction design, videoproduction, frontend development and project management with B2B experience
-      in streaming and broadcast, and product and project management. </br></br>I bring a user-centered approach to all of my work. I am passionate about creating business and user value through design, and I have a strong track record of delivering
+      I am skilled in interaction design, videoproduction, frontend development and project management with B2B
+      experience
+      in streaming and broadcast, and product and project management. </br></br>I bring a user-centered approach to all
+      of my work. I am passionate about creating business and user value through design, and I have a strong track
+      record of delivering
       valuable solutions that users find useful and
-      inspiring. 
+      inspiring.
 
       </br>
       </br>
-            <div>• Project Management certified</div>
+      <div>• Project Management certified</div>
       <div>• MA degree in behavioural studies</div>
       <div>• UX design certified</div>
       <div>• Video and interaction design</div>
@@ -139,8 +159,9 @@
       <div class="column1">
 
 
-         <div class="copy sketch">
-          <p>Diverse skillset</p>I bring experience from project management, video production, UX, UI, and frontend development. <br><br>My
+        <div class="copy sketch">
+          <p>Diverse skillset</p>I bring experience from project management, video production, UX, UI, and frontend
+          development. <br><br>My
           background in video,
           drawing and
           dance gives me a unique eye for depth, timing and interaction to design user friendly experiences and
@@ -153,19 +174,20 @@
           <br><br>I use AI, and virtual reality (XR) as tools to
           create and debug, as well as perform user tesing and iterate designs.
         </div>
- 
+
 
       </div>
-      
+
 
       <div class="column2">
 
-                <div class="picture panorama-banner">
+        <div class="picture panorama-banner">
 
-          <img class="" src="img/marine_restoration/Marine_restoration 2026-04-24 kl. 11.26.29 kopi.webp" alt="Marine restoration">
+          <img class="" src="img/marine_restoration/Marine_restoration 2026-04-24 kl. 11.26.29 kopi.webp"
+            alt="Marine restoration">
           <!-- <img class="panorama-slides" src="img/marine_restoration/Marine_restoration 2026-04-24 kl. 11.26.29 kopi.webp" alt="Marine restoration">
---> 
- 
+-->
+
         </div>
 
       </div>
@@ -217,7 +239,7 @@
     </div>
   </div>
 
-    <div id="work" class="section3 ">
+  <div id="work" class="section3 ">
     <div class="background-card">
       <div class="copy">
         <p>User oriented and data driven design</p>
@@ -244,7 +266,7 @@
       <div class="hr"></div>
 
       <div>• Video Editing, Production & Streaming</div>
-            <div>• Project Management</div>
+      <div>• Project Management</div>
       <div>• User Experience Design</div>
       <div>• UI & Interaction Design</div>
       <div>• Frontend development</div>
@@ -258,32 +280,30 @@
         </a></h2>
     </div>
 
-    <div class="mainbox">
-      <div class="skillsplate">
+
+
+    <!-- test  -->
+    <div class="blob-container">
 
 
 
+     
 
-        <div class="blob">
-          <svg viewbox="-0 -0 60 60">
-            <path
-              d="m1.65 1.36c2.83-3 7.47-.6 26 3 19.44 3.77 24.17 3.04 26 7 2.93 6.34-5.24 16.88-13 22-2.15 1.42-11.6 7.65-22 4-6.98-2.45-10.11-8.6-13-14C4.36 20.94-3.31 6.61 1.65 1.36Z" />
-          </svg>
 
-          <img class="picture ten" src="img/nature/snail-skills.png" alt="design thinking snail1" />
+
+          <div class="blob background"></div>
+        <div class="shadow-container"> 
+          <div class="blob bottom"></div>
         </div>
-
-        <div class="blob2">
-          <svg viewbox="-0 -0 60 60">
-            <path
-              d="m1.65 1.36c2.83-3 7.47-.6 26 3 19.44 3.77 24.17 3.04 26 7 2.93 6.34-5.24 16.88-13 22-2.15 1.42-11.6 7.65-22 4-6.98-2.45-10.11-8.6-13-14C4.36 20.94-3.31 6.61 1.65 1.36Z" />
-          </svg>
-
-          <img class="picture ten" src="img/nature/snail-skills.png" alt="design thinking snail 2" />
-        </div>
-
-      </div>
+            <div class="shadow-container"> 
+      <div class="blob middle"></div></div>
+          <div class="shadow-container"> 
+      <div class="blob top"></div></div>
     </div>
+    <!-- test  end-->
+
+  </div>
+  </div>
   </div>
 
 
